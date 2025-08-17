@@ -1,9 +1,14 @@
 import React, { useEffect, useRef } from "react";
+import Footer from "../components/Footer";
 
 // SpotlightCard component
-const SpotlightCard = ({ children, className = "", spotlightColor = "rgba(255, 255, 255, 0.1)" }) => {
+const SpotlightCard = ({
+  children,
+  className = "",
+  spotlightColor = "rgba(255, 255, 255, 0.1)",
+}) => {
   const divRef = useRef(null);
-  
+
   const handleMouseMove = (e) => {
     const rect = divRef.current.getBoundingClientRect();
     const x = e.clientX - rect.left;
@@ -12,7 +17,7 @@ const SpotlightCard = ({ children, className = "", spotlightColor = "rgba(255, 2
     divRef.current.style.setProperty("--mouse-y", `${y}px`);
     divRef.current.style.setProperty("--spotlight-color", spotlightColor);
   };
-  
+
   return (
     <div
       ref={divRef}
@@ -112,10 +117,17 @@ const TableCard = ({ title, icon, rows }) => (
 const Card = ({ title, items }) => (
   <div className="hover-animate">
     <SpotlightCard className="p-6 border border-white/15 rounded-lg space-y-4 bg-gradient-to-br from-white/8 to-white/3 overflow-hidden">
-      <h4 className="text-2xl font-bold mb-4 flex items-center gap-2 text-white">{title}</h4>
+      <h4 className="text-2xl font-bold mb-4 flex items-center gap-2 text-white">
+        {title}
+      </h4>
       <ul className="space-y-2 text-sm text-white/70">
         {items.map((item) => (
-          <li key={item} className="hover:text-white/90 transition-colors duration-200">{item}</li>
+          <li
+            key={item}
+            className="hover:text-white/90 transition-colors duration-200"
+          >
+            {item}
+          </li>
         ))}
       </ul>
     </SpotlightCard>
@@ -194,14 +206,16 @@ function About() {
   }, []);
 
   return (
-    <div className="min-h-screen text-white overflow-x-hidden">
+    <div className="min-h-screen text-white overflow-x-hidden mt-20">
       {/* Header */}
       <div
         ref={(el) => (refs.current.header = el)}
         className="max-w-6xl mx-auto px-4 py-20"
       >
         <div className="relative">
-          <h1 className="text-6xl mb-4 tracking-tight text-white font-light">About</h1>
+          <h1 className="text-6xl mb-4 tracking-tight text-white font-light">
+            About
+          </h1>
           <p className="text-xl font-light tracking-wide text-white/85">
             Photography & Filming Club
           </p>
@@ -285,6 +299,7 @@ function About() {
           </aside>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

@@ -51,13 +51,13 @@ export default function Navbar() {
               <NavLink
                 to={link.path}
                 className={({ isActive }) =>
-                  `flex items-center flex-col justify-center h-full w-full transition-all duration-300 ${
+                  `flex items-center flex-col justify-center h-full w-full transition-all duration-100 ${
                     isActive
-                      ? "text-white font-bold border-b-2 border-white/60"
+                      ? "text-white font-bold border-b-1 border-white/60"
                       : "text-white/80 hover:text-white"
                   } ${
                     hoveredIndex === index && isNavHovered
-                      ? "font-semibold scale-105"
+                      ? "font-semibold"
                       : "font-normal"
                   }`
                 }

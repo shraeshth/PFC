@@ -1,4 +1,5 @@
-import React, { useEffect, useRef } from "react";
+import React, { useRef, useEffect } from "react";
+import bgimg from "../assets/WE ARE PFC.png";
 
 const lettersData = [
   {
@@ -79,7 +80,7 @@ const LettersCarousel = () => {
   }, []);
 
   return (
-    <div className="absolute bottom-90 z-20 overflow-hidden w-full py-16">
+    <div className="absolute bottom-70 z-20 overflow-hidden w-full py-16">
       <div className="flex gap-8 w-max" ref={carouselRef}>
         {lettersData.map((person, index) => (
           <LetterCard key={`first-${index}`} {...person} />
@@ -92,4 +93,40 @@ const LettersCarousel = () => {
   );
 };
 
-export default LettersCarousel;
+const Footer = () => {
+  return (
+    <div className="w-full mx-auto text-center relative">
+      {/* Header */}
+      <div className="mb-40">
+        <h1 className="text-6xl font-light tracking-tight mb-4">
+          Meet the Team
+        </h1>
+        <p className="text-xl font-light tracking-wide opacity-80">
+          Photography & Filming Club
+        </p>
+      </div>
+
+      {/* Carousel */}
+      <LettersCarousel />
+
+      {/* Background + Footer */}
+      <div className="flex justify-center w-full mt-12 relative">
+        <p className="text-3xl font-bold text-white absolute bottom-8">
+          WE ❤️ PFC
+        </p>
+        <div className="z-[-20] absolute bottom-100 backdrop-blur-2xl inset-0 bg-black"></div>
+        <img
+          src={bgimg}
+          alt="We Are PFC"
+          className="z-[-20] w-full opacity-90"
+          onError={(e) =>
+            (e.target.src =
+              "https://via.placeholder.com/400x200/333/fff?text=WE+ARE+PFC")
+          }
+        />
+      </div>
+    </div>
+  );
+};
+
+export default Footer;

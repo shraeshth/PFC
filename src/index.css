@@ -7,7 +7,6 @@
 
 html {
   font-family: var(--font-heading);
-  text-transform: capitalize;
   color: white;
   background-color: #000000;
   height: 100%;
