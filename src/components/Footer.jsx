@@ -34,11 +34,11 @@ const lettersData = [
 
 const LetterCard = ({ name, role, insta, img, text }) => (
   <div className="letter-card w-80 p-3 flex-shrink-0 rounded-xl border border-white/20 bg-black/50 hover:bg-black/40 transition-all duration-300">
-    <div className="flex items-center mb-2 gap-3 border-b border-white/10 pb-2">
+    <div className="flex items-center mb-2 gap-3 border-b border-white/20 pb-2">
       <img
         src={img}
         alt={name}
-        className="w-16 h-16 rounded-full object-cover"
+        className="w-25 h-16 rounded-full object-cover border-white/20"
       />
       <div className="flex flex-col justify-center text-sm">
         <span className="font-semibold">{name}</span>
@@ -96,24 +96,11 @@ const LettersCarousel = () => {
 const Footer = () => {
   return (
     <div className="w-full mx-auto text-center relative">
-      {/* Header */}
-      <div className="mb-40">
-        <h1 className="text-6xl font-light tracking-tight mb-4">
-          Meet the Team
-        </h1>
-        <p className="text-xl font-light tracking-wide opacity-80">
-          Photography & Filming Club
-        </p>
-      </div>
-
       {/* Carousel */}
       <LettersCarousel />
 
       {/* Background + Footer */}
-      <div className="flex justify-center w-full mt-12 relative">
-        <p className="text-3xl font-bold text-white absolute bottom-8">
-          WE ❤️ PFC
-        </p>
+      <div className="flex justify-center w-full mt-5 relative">
         <div className="z-[-20] absolute bottom-100 backdrop-blur-2xl inset-0 bg-black"></div>
         <img
           src={bgimg}

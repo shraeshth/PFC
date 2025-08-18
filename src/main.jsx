@@ -6,6 +6,7 @@ import Layout from "./page/Layout";
 import Hero from "./page/Hero";
 import About from "./page/About";
 import Gallery from "./page/Gallery"; // Assuming you have a Gallery component
+import MerchPage from "./page/MerchPage";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: "/gallery",
         element: <Gallery />,
+      },
+      {
+        path: "/merch",
+        element: <MerchPage />,
       },
     ],
   },

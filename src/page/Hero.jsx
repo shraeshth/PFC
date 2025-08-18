@@ -2,7 +2,8 @@ import React from "react";
 import ImageTrailHero from "../components/ImageTrail";
 import VideoCarousel from "./VideoCarousel";
 import Background from "./Background";
-import About from "./About";
+import Who from "./Who";
+import Footer from "../components/Footer";
 
 const Hero = () => {
   return (
@@ -10,7 +11,8 @@ const Hero = () => {
       <Background />
       <ImageTrailHero />
       <VideoCarousel />
-      <About />
+      <Who />
+      <Footer />
     </div>
   );
 };
