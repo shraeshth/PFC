@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Photography Workshop",
+    "date": "2025-09-10",
+    "time": "3:00 PM",
+    "location": "Auditorium Hall, Campus",
+    "description": "Hands-on workshop teaching basics of DSLR photography, framing, and editing.",
+    "banner": "images/events/photo-workshop.jpg",
+    "tags": ["photography", "workshop", "club"]
+  },
+  {
+    "id": 2,
+    "title": "Design Hackathon",
+    "date": "2025-08-25",
+    "time": "10:00 AM",
+    "location": "Innovation Lab",
+    "description": "24-hour hackathon focused on UI/UX and design challenges.",
+    "banner": "images/events/design-hackathon.jpg",
+    "tags": ["competition", "design", "hackathon"]
+  },
+  {
+    "id": 3,
+    "title": "Film Screening",
+    "date": "2025-07-15",
+    "time": "6:00 PM",
+    "location": "Open Air Theatre",
+    "description": "An evening under the stars with an award-winning indie film.",
+    "banner": "images/events/film-screening.jpg",
+    "tags": ["film", "screening", "club"]
+  }
+]
