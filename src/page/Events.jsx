@@ -156,8 +156,12 @@ const EventCard = React.memo(({ event, isUpcoming }) => {
         </div>
 
         <div className="p-6 space-y-4">
-          <h3 className="text-white text-lg font-light leading-tight">{event.title}</h3>
-          <p className="text-gray-400 text-sm font-light leading-relaxed">{event.description}</p>
+          <h3 className="text-white text-lg font-light leading-tight">
+            {event.title}
+          </h3>
+          <p className="text-gray-400 text-sm font-light leading-relaxed">
+            {event.description}
+          </p>
 
           <div className="flex flex-wrap gap-2">
             {event.tags.slice(0, 3).map((tag) => (
@@ -213,13 +217,18 @@ const EventsGrid = React.memo(({ events, isUpcomingTab }) => {
           <Camera className="w-8 h-8 text-gray-600" />
         </div>
         <h3 className="text-2xl font-light text-white mb-3">No Events Found</h3>
-        <p className="text-gray-400 font-light">No events match your current selection</p>
+        <p className="text-gray-400 font-light">
+          No events match your current selection
+        </p>
       </div>
     );
   }
 
   return (
-    <div ref={gridRef} className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 lg:gap-12">
+    <div
+      ref={gridRef}
+      className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 lg:gap-12"
+    >
       {events.map((event) => (
         <EventCard key={event.id} event={event} isUpcoming={isUpcomingTab} />
       ))}
@@ -235,7 +244,9 @@ const Events = () => {
 
   const filteredEvents = useMemo(() => {
     let filtered = eventsData.filter((event) =>
-      activeTab === "upcoming" ? isUpcoming(event.date) : !isUpcoming(event.date)
+      activeTab === "upcoming"
+        ? isUpcoming(event.date)
+        : !isUpcoming(event.date)
     );
 
     if (selectedCategory !== "all") {
@@ -268,12 +279,13 @@ const Events = () => {
             Club Events
           </h1>
           <p className="text-xl font-light text-white/80 max-w-2xl mx-auto leading-relaxed">
-            Masterclasses, workshops, and exhibitions crafted for visual storytellers
+            Masterclasses, workshops, and exhibitions crafted for visual
+            storytellers
           </p>
         </div>
 
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-16 mt-10 gap-8">
-          <div className="flex border-[0.1px] border-white/20 rounded-2xl overflow-hidden">
+          <div className="flex border border-white/20 rounded-2xl overflow-hidden w-full max-w-xs sm:max-w-md md:max-w-lg">
             {[
               { id: "upcoming", label: "Upcoming" },
               { id: "past", label: "Archive" },
@@ -281,11 +293,14 @@ const Events = () => {
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
-                className={`px-8 py-4 font-light uppercase tracking-widest text-sm transition-all duration-300 ${
-                  activeTab === tab.id
-                    ? "bg-white text-black"
-                    : "text-white/80 hover:text-white hover:bg-white/5"
-                }`}
+                className={`flex-1 px-4 py-2 sm:px-6 sm:py-3 md:px-8 md:py-4 
+        font-light uppercase tracking-wide text-xs sm:text-sm md:text-base 
+        transition-all duration-300 text-center
+        ${
+          activeTab === tab.id
+            ? "bg-white text-black"
+            : "text-white/80 hover:text-white hover:bg-white/5"
+        }`}
               >
                 {tab.label}
               </button>
@@ -299,11 +314,14 @@ const Events = () => {
             >
               <Filter className="w-4 h-4 text-white/40 group-hover:text-white/60" />
               <span className="flex-1 text-left font-light">
-                {categories.find((cat) => cat.value === selectedCategory)?.label || "All Categories"}
+                {categories.find((cat) => cat.value === selectedCategory)
+                  ?.label || "All Categories"}
               </span>
               <ChevronDown
                 className={`w-4 h-4 text-white/40 transition-all duration-300 ${
-                  isDropdownOpen ? "rotate-180 text-white" : "group-hover:text-white/60"
+                  isDropdownOpen
+                    ? "rotate-180 text-white"
+                    : "group-hover:text-white/60"
                 }`}
               />
             </button>
@@ -331,7 +349,10 @@ const Events = () => {
           </div>
         </div>
 
-        <EventsGrid events={filteredEvents} isUpcomingTab={activeTab === "upcoming"} />
+        <EventsGrid
+          events={filteredEvents}
+          isUpcomingTab={activeTab === "upcoming"}
+        />
       </div>
     </div>
   );

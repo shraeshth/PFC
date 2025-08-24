@@ -63,7 +63,7 @@ const ImagePreview = ({ image, isOpen, onClose, allImages, onNavigate }) => {
   };
 
   return (
-    <div className="fixed inset-0 z-[120] bg-black/90 flex items-center justify-center" onClick={onClose}>
+    <div className="fixed inset-0 z-[250] bg-black/90 flex items-center justify-center" onClick={onClose}>
       <div className="relative w-full h-full flex items-center justify-center" onClick={(e) => e.stopPropagation()}>
         <button className="absolute top-5 right-5 text-white p-2 rounded-full hover:bg-white/10" onClick={onClose}>
           <X size={22} />

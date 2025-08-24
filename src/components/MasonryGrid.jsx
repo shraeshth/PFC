@@ -1,7 +1,7 @@
 import React, { useRef, useState, useMemo, useCallback, useLayoutEffect } from "react";
 import TiltCard from "./TiltCard";
 
-// Responsive columns
+// Responsive columns with better breakpoints
 const useMedia = (queries, values, defaultValue) => {
   const get = () => values[queries.findIndex((q) => matchMedia(q).matches)] ?? defaultValue;
   const [value, setValue] = useState(get);
@@ -67,9 +67,17 @@ const seededHeight = (seed) => {
 };
 
 const MasonryGrid = ({ items, onImageClick }) => {
+  // Improved responsive breakpoints
   const columns = useMedia(
-    ["(min-width:1500px)", "(min-width:1100px)", "(min-width:800px)", "(min-width:500px)"],
-    [5, 4, 3, 2],
+    [
+      "(min-width: 1536px)", // 2xl
+      "(min-width: 1280px)", // xl  
+      "(min-width: 1024px)", // lg
+      "(min-width: 768px)",  // md
+      "(min-width: 640px)",  // sm
+      "(min-width: 480px)"   // xs
+    ],
+    [5, 4, 3, 3, 2, 2],
     1
   );
 
@@ -78,17 +86,29 @@ const MasonryGrid = ({ items, onImageClick }) => {
   const itemRefs = useRef(new Map());
   const animated = useRef(new Set());
 
+  // Responsive gap system
+  const getGaps = () => {
+    if (width < 480) return { gapX: 12, gapY: 16 };      // xs
+    if (width < 640) return { gapX: 16, gapY: 20 };      // sm
+    if (width < 768) return { gapX: 20, gapY: 24 };      // md
+    if (width < 1024) return { gapX: 24, gapY: 28 };     // lg
+    if (width < 1280) return { gapX: 28, gapY: 32 };     // xl
+    return { gapX: 32, gapY: 36 };                       // 2xl
+  };
+
   const grid = useMemo(() => {
     if (!width) return [];
-    const gapX = 28; // horizontal gap
-    const gapY = 36; // vertical gap
+    const { gapX, gapY } = getGaps();
     const colHeights = new Array(columns).fill(0);
     const colWidth = (width - gapX * (columns - 1)) / columns;
 
     return items.map((item) => {
       const col = colHeights.indexOf(Math.min(...colHeights));
       const w = colWidth;
-      const h = ((item.height || seededHeight(item.id)) * w) / 400;
+      // Responsive height calculation
+      const baseHeight = item.height || seededHeight(item.id);
+      const aspectRatio = width < 480 ? 1.2 : width < 768 ? 1.1 : 1.0;
+      const h = (baseHeight * w * aspectRatio) / 400;
       const x = col * (w + gapX);
       const y = colHeights[col];
       colHeights[col] += h + gapY;
@@ -104,7 +124,7 @@ const MasonryGrid = ({ items, onImageClick }) => {
     });
   }, [grid, observe, visible]);
 
-  // Animate in & reposition
+  // Animate in & reposition with responsive timing
   useLayoutEffect(() => {
     grid.forEach((g) => {
       const el = itemRefs.current.get(g.id);
@@ -113,19 +133,21 @@ const MasonryGrid = ({ items, onImageClick }) => {
       const translate = `translate(${g.x}px, ${g.y}px)`;
       if (visible.has(g.id) && !animated.current.has(g.id)) {
         el.style.opacity = "0";
-        el.style.transform = `translate(${g.x}px, ${g.y + 20}px) scale(0.98)`; // subtle offset
+        el.style.transform = `translate(${g.x}px, ${g.y + 20}px) scale(0.98)`;
         requestAnimationFrame(() => {
-          el.style.transition = "all 600ms cubic-bezier(0.25,0.46,0.45,0.94)";
+          const duration = width < 768 ? 400 : 600; // Faster on mobile
+          el.style.transition = `all ${duration}ms cubic-bezier(0.25,0.46,0.45,0.94)`;
           el.style.opacity = "1";
           el.style.transform = `${translate} scale(1)`;
         });
         animated.current.add(g.id);
       } else {
-        el.style.transition = "transform 500ms ease-out";
+        const duration = width < 768 ? 300 : 500;
+        el.style.transition = `transform ${duration}ms ease-out`;
         el.style.transform = translate;
       }
     });
-  }, [grid, visible]);
+  }, [grid, visible, width]);
 
   const setItemRef = useCallback((el, id) => {
     if (el) itemRefs.current.set(id, el);
@@ -137,15 +159,21 @@ const MasonryGrid = ({ items, onImageClick }) => {
   return (
     <div
       ref={containerRef}
-      className="relative w-7xl px-6  md:px-8" // added padding
+      className="relative w-full max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8"
       style={{ height: totalHeight }}
     >
       {grid.map((g) => (
         <div
           key={g.id}
           ref={(el) => setItemRef(el, g.id)}
-          className="absolute will-change-transform"
-          style={{ width: g.w, height: g.h, transform: `translate(${g.x}px, ${g.y}px)` }}
+          className="absolute will-change-transform cursor-pointer"
+          style={{ 
+            width: g.w, 
+            height: g.h, 
+            transform: `translate(${g.x}px, ${g.y}px)`,
+            // Responsive touch targets
+            minHeight: width < 480 ? "180px" : "200px"
+          }}
         >
           <TiltCard
             image={g}
@@ -156,6 +184,16 @@ const MasonryGrid = ({ items, onImageClick }) => {
           />
         </div>
       ))}
+      
+      {/* Loading state for empty grid */}
+      {grid.length === 0 && width > 0 && (
+        <div className="flex items-center justify-center h-64 text-white/60">
+          <div className="text-center">
+            <div className="text-lg sm:text-xl mb-2">No images found</div>
+            <div className="text-sm opacity-70">Try adjusting your filters</div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
