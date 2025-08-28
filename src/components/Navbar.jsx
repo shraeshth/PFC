@@ -23,7 +23,7 @@ export default function Navbar() {
         <div className="flex items-center">
           <NavLink to="/" className="flex items-center">
             <img
-              src="/src/assets/pfclogo 1.png"
+              src="/src/assets/pfclogo1.png"
               alt="Logo"
               className="h-8 sm:h-10 md:h-12 w-auto object-contain cursor-pointer transition-transform duration-300 hover:scale-105"
               onError={(e) => {
@@ -39,7 +39,7 @@ export default function Navbar() {
           className="hidden md:flex items-center h-full ml-auto"
           onMouseEnter={() => setIsNavHovered(true)}
           onMouseLeave={() => setIsNavHovered(false)}
-          style={{ width: 'auto' }}
+          style={{ width: "auto" }}
         >
           {links.map((link, index) => (
             <li
@@ -64,7 +64,9 @@ export default function Navbar() {
                   }`
                 }
               >
-                <p className="mt-6 text-sm lg:text-base whitespace-nowrap">{link.name}</p>
+                <p className="mt-6 text-sm lg:text-base whitespace-nowrap">
+                  {link.name}
+                </p>
               </NavLink>
             </li>
           ))}
@@ -76,7 +78,11 @@ export default function Navbar() {
           onClick={() => setIsMobileOpen(!isMobileOpen)}
           aria-label="Toggle mobile menu"
         >
-          {isMobileOpen ? <X size={24} className="sm:w-7 sm:h-7" /> : <Menu size={24} className="sm:w-7 sm:h-7" />}
+          {isMobileOpen ? (
+            <X size={24} className="sm:w-7 sm:h-7" />
+          ) : (
+            <Menu size={24} className="sm:w-7 sm:h-7" />
+          )}
         </button>
       </div>
 
@@ -85,7 +91,12 @@ export default function Navbar() {
         <div className="md:hidden bg-black/90 backdrop-blur-xl border-t border-white/20">
           <ul className="flex flex-col">
             {links.map((link, index) => (
-              <li key={link.name} className={`${index !== links.length - 1 ? 'border-b border-white/20' : ''}`}>
+              <li
+                key={link.name}
+                className={`${
+                  index !== links.length - 1 ? "border-b border-white/20" : ""
+                }`}
+              >
                 <NavLink
                   to={link.path}
                   className={({ isActive }) =>
