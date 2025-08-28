@@ -13,10 +13,12 @@ function FooterText() {
           {/* Links */}
           <div className="flex flex-wrap justify-center md:justify-start gap-6 text-sm md:text-base text-white/30">
             <a
-              href="#"
+              href="https://www.linkedin.com/in/shreshth-sharma-1b3156248/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-white transition-colors duration-300"
             >
-              Contact
+              Contact the Developer
             </a>
           </div>
         </div>
