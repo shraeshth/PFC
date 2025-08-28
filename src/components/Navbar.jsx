@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { Menu, X } from "lucide-react"; // hamburger & close icons
+import { Menu, X } from "lucide-react";
+import logo from "../assets/pfclogo1.png";
 
 export default function Navbar() {
   const links = [
@@ -23,7 +24,7 @@ export default function Navbar() {
         <div className="flex items-center">
           <NavLink to="/" className="flex items-center">
             <img
-              src="/src/assets/pfclogo1.png"
+              src={logo}
               alt="Logo"
               className="h-8 sm:h-10 md:h-12 w-auto object-contain cursor-pointer transition-transform duration-300 hover:scale-105"
               onError={(e) => {
