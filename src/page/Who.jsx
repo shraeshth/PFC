@@ -12,60 +12,65 @@ const sidebarData = [
       ["Founded", "2021 – Building a creative legacy"],
       ["Members", "120+ passionate photographers & filmmakers"],
       ["Awards", "8 – Recognized in competitions & exhibitions"],
-      ["Photo Walks", "75+ – Exploring streets and landscapes"],
       ["Annual Events", "5 – Celebrating creativity yearly"],
       ["Social Media Reach", "10k+ – Sharing our vision online"],
     ],
   },
 ];
 
-// Activity cards
+// Activity / Approach cards
 const cardData = [
   {
-    title: "Photography",
+    title: "Our Approach to Photography",
     items: [
-      "City photo walks – Capture urban stories and moments",
-      "Nature & landscape shoots – Explore the beauty of the outdoors",
+      "Observation – Training the eye to notice subtle details others might miss",
+      "Expression – Using light, color, and composition to communicate emotion",
+      "Connection – Capturing not just subjects, but the stories behind them",
     ],
   },
   {
-    title: "Filmmaking",
+    title: "Our Approach to Filmmaking",
     items: [
-      "Short film workshops – Learn and create compelling stories",
-      "Documentary projects – Highlight real-world narratives",
+      "Narrative Craft – Building meaningful stories that resonate with audiences",
+      "Experimentation – Exploring short films, documentaries, and creative formats",
+      "Collaboration – Working as a team where every role shapes the final story",
     ],
   },
 ];
 
 const TableCard = ({ title, icon, rows }) => (
-  <TextTiltCard>
-    <SpotlightCard className="p-4 sm:p-6 border border-white/20 rounded-2xl bg-black/5 backdrop-blur-sm">
-      <h3 className="text-lg sm:text-xl font-semibold mb-4 flex items-center gap-2 text-white/90">
-        <i className={icon}></i> {title}
-      </h3>
-      <table className="w-full text-left text-xs sm:text-sm">
-        <tbody>
-          {rows.map(([label, value]) => (
-            <tr key={label} className="border-t border-white/20">
-              <td className="py-2 font-medium text-white/80">{label}</td>
-              <td className="py-2 text-white/60">{value}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+  <TextTiltCard className="h-full">
+    <SpotlightCard className="p-4 sm:p-6 border border-white/20 rounded-2xl bg-black/5 backdrop-blur-sm h-full flex flex-col justify-between">
+      <div>
+        <h3 className="text-lg sm:text-xl font-semibold mb-4 flex items-center gap-2 text-white/90">
+          <i className={icon}></i> {title}
+        </h3>
+        <table className="w-full text-left text-xs sm:text-sm">
+          <tbody>
+            {rows.map(([label, value]) => (
+              <tr key={label} className="border-t border-white/20">
+                <td className="py-2 font-medium text-white/80">{label}</td>
+                <td className="py-2 text-white/60">{value}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </SpotlightCard>
   </TextTiltCard>
 );
 
 const Card = ({ title, items }) => (
-  <TextTiltCard>
-    <SpotlightCard className="p-4 sm:p-6 border border-white/20 rounded-2xl space-y-4 bg-black/5 overflow-hidden">
-      <h4 className="text-xl sm:text-2xl font-bold mb-4 text-white">{title}</h4>
-      <ul className="space-y-2 text-xs sm:text-sm text-white/70">
+  <TextTiltCard className="h-full">
+    <SpotlightCard className="p-4 sm:p-6 border border-white/20 rounded-2xl space-y-4 bg-black/5 overflow-hidden h-full flex flex-col">
+      <h4 className="text-xl sm:text-2xl font-bold mb-4 text-white text-center">
+        {title}
+      </h4>
+      <ul className="space-y-2 text-xs sm:text-sm text-white/70 flex-1 flex flex-col justify-center">
         {items.map((item) => (
           <li
             key={item}
-            className="hover:text-white/90 transition-colors duration-200"
+            className="hover:text-white/90 transition-colors duration-200 text-center"
           >
             {item}
           </li>
@@ -76,17 +81,17 @@ const Card = ({ title, items }) => (
 );
 
 function Who() {
-  const refs = useRef({ header: null, main: null, sidebar: null });
+  const refs = useRef({ header: null, main: null });
 
   useEffect(() => {
     if (!window.gsap) return;
     const { gsap } = window;
 
-    const { header, main, sidebar } = refs.current;
-    gsap.set([header, main, sidebar], { opacity: 0, y: 30 });
+    const { header, main } = refs.current;
+    gsap.set([header, main], { opacity: 0, y: 30 });
 
     const tl = gsap.timeline();
-    tl.to([header, main, sidebar], {
+    tl.to([header, main], {
       duration: 0.8,
       opacity: 1,
       y: 0,
@@ -100,51 +105,42 @@ function Who() {
       {/* Header */}
       <div
         ref={(el) => (refs.current.header = el)}
-        className="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-20"
+        className="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-20 text-center"
       >
         <h1 className="text-3xl sm:text-5xl font-light mb-3 sm:mb-4">
-          Who we Are?
+          Who We Are?
         </h1>
         <p className="text-base sm:text-xl font-light text-white/80">
-          Photography & Filming Club
+          A community of photographers and filmmakers turning moments into
+          compelling stories through creativity and collaboration.
         </p>
       </div>
 
       {/* Main Content */}
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 pb-20 sm:pb-40">
-        <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 sm:gap-8">
-          {/* Main Preview */}
-          <div
-            ref={(el) => (refs.current.main = el)}
-            className="lg:col-span-3 space-y-8 sm:space-y-12"
-          >
-            <section>
-              <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 text-white/90">
-                Club Overview
-              </h2>
-              <p className="text-sm sm:text-lg text-white/75">
-                We are a passionate community of photographers and filmmakers
-                capturing stories through the lens. Our club encourages
-                creativity, collaboration, and continuous learning.
-              </p>
-            </section>
+      <div
+        ref={(el) => (refs.current.main = el)}
+        className="max-w-6xl mx-auto px-4 sm:px-6 pb-20 sm:pb-40"
+      >
+        {/* Overview (Full Width, Center Aligned) */}
+        <section className="mb-12 sm:mb-16 text-center">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 text-white/90">
+            Club Overview
+          </h2>
+          <p className="text-sm sm:text-lg text-white/75 max-w-4xl mx-auto">
+            We are a passionate community of photographers and filmmakers
+            capturing stories through the lens. Our club encourages creativity,
+            collaboration, and continuous learning.
+          </p>
+        </section>
 
-            <section className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 mt-4 sm:mt-6">
-              {cardData.map((card) => (
-                <Card key={card.title} {...card} />
-              ))}
-            </section>
-          </div>
-
-          {/* Sidebar */}
-          <aside
-            ref={(el) => (refs.current.sidebar = el)}
-            className="lg:col-span-2 space-y-4 sm:space-y-5"
-          >
-            {sidebarData.map((section) => (
-              <TableCard key={section.title} {...section} />
-            ))}
-          </aside>
+        {/* All three cards in one row with equal height */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
+          {cardData.map((card) => (
+            <Card key={card.title} {...card} />
+          ))}
+          {sidebarData.map((section) => (
+            <TableCard key={section.title} {...section} />
+          ))}
         </div>
       </div>
     </div>
