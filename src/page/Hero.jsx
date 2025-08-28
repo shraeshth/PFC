@@ -1,5 +1,5 @@
 import React from "react";
-import ImageTrailHero from "../components/ImageTrail";
+import ImageTrailHero from "../components/ImageTrailHero";
 import VideoCarousel from "./VideoCarousel";
 import Who from "./Who";
 import Footer from "../components/Footer";

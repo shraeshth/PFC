@@ -16,7 +16,7 @@ function FooterText() {
               href="https://www.linkedin.com/in/shreshth-sharma-1b3156248/"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-white transition-colors duration-300"
+              className="hover:text-[#ff66c4] transition-colors duration-300"
             >
               Contact the Developer
             </a>

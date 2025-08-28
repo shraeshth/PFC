@@ -13,7 +13,7 @@ const LetterCard = ({ name, position, instagram, image, description }) => (
         rel="noopener noreferrer"
         className="block w-full h-full"
       >
-        <div className="letter-card w-72 sm:w-80 p-3 rounded-xl border border-white/20 bg-black/50 hover:bg-black/40 transition-all duration-300 flex">
+        <div className="letter-card w-72 sm:w-80 p-5 rounded-xl border border-white/20 bg-black/50 hover:bg-black/40 transition-all duration-300 flex">
           {/* Left Image - 30% */}
           <div className="flex-shrink-0 w-1/3 flex justify-center items-start">
             <img

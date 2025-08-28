@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "../index.css";
 import SpotlightCard from "../components/SpotlightCard";
 import TextTiltCard from "../components/TextTiltCard";
@@ -52,6 +52,7 @@ const approachData = [
   },
 ];
 
+
 const TableCard = ({ title, icon, rows }) => (
   <TextTiltCard className="h-full">
     <SpotlightCard className="p-4 sm:p-6 border border-white/20 rounded-2xl bg-black/5 backdrop-blur-sm h-full flex flex-col justify-start">
@@ -93,7 +94,7 @@ function Who() {
   }, []);
 
   return (
-    <div className="min-h-screen text-white bg-black overflow-x-hidden mt-16 sm:mt-20">
+    <div className="min-h-screen text-white bg-black mt-16 sm:mt-20">
       {/* Header */}
       <div
         ref={(el) => (refs.current.header = el)}

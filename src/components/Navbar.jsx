@@ -13,6 +13,7 @@ export default function Navbar() {
 
   const [hoveredIndex, setHoveredIndex] = useState(-1);
   const [isMobileOpen, setIsMobileOpen] = useState(false);
+  
 
   return (
     <nav className="fixed top-0 left-0 w-full z-[200] bg-black/40 backdrop-blur-xl text-white border-b border-white/20">
@@ -46,8 +47,8 @@ export default function Navbar() {
                 className={({ isActive }) =>
                   `flex items-center justify-center h-full w-full transition-all duration-100 ${
                     isActive
-                      ? "text-white font-bold border-b-2 border-white/60"
-                      : "text-white/80 hover:text-white"
+                      ? "text-white font-bold border-b-1 border-[#ff66c4]/50"
+                      : "text-white/80 hover:text-[#ff66c4]"
                   } ${hoveredIndex === index ? "font-semibold" : "font-normal"}`
                 }
               >

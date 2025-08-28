@@ -101,11 +101,15 @@ VideoItem.displayName = "VideoItem";
 const NavigationButton = React.memo(({ direction, onClick, className }) => (
   <button
     onClick={onClick}
-    className={`absolute top-1/2 -translate-y-1/2 text-white/60 hover:text-white text-lg sm:text-2xl transition-colors duration-200 focus:outline-none focus:text-white z-20 ${className}`}
+    className={`absolute top-1/2 -translate-y-1/2 text-[#ff66c4] hover:text-white text-lg sm:text-2xl transition-colors duration-200 focus:outline-none focus:text-white z-20 ${className}`}
     aria-label={`${direction === "prev" ? "Previous" : "Next"} video`}
     type="button"
   >
-    {direction === "prev" ? "‹" : "›"}
+    {direction === "prev" ? (
+      <i className="ri-arrow-left-s-line"></i>
+    ) : (
+      <i className="ri-arrow-right-s-line"></i>
+    )}
   </button>
 ));
 
@@ -341,7 +345,7 @@ export default function VideoCarousel({ videos = VIDEOS, autoplay = true }) {
         <NavigationButton
           direction="prev"
           onClick={goPrev}
-          className="left-2 sm:left-4"
+          className="left-2 sm:left-4 text-[#ff66c4]"
         />
 
         <NavigationButton

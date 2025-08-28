@@ -5,6 +5,37 @@
   font-family: "Figtree", sans-serif;
 }
 
+@keyframes fade-blur {
+  0% {
+    opacity: 0;
+    filter: blur(12px);
+    transform: translateY(10px);
+  }
+  40% {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateY(0);
+  }
+  60% {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    filter: blur(12px);
+    transform: translateY(-10px);
+  }
+}
+
+.animate-fade-blur {
+  animation: fade-blur 2.5s ease-in-out;
+}
+
+.animate-fade-blur {
+  animation: fade-blur 2.5s ease-in-out;
+}
+
 :root {
   font-family: "KyivType Sans-";
   font-weight: 300;
@@ -33,7 +64,7 @@ html {
   overflow: hidden;
   --mouse-x: 50%;
   --mouse-y: 50%;
-  --spotlight-color: rgba(255, 255, 255, 0.25);
+  --spotlight-color: #ff66c4;
 }
 
 .card-spotlight::before {
@@ -51,10 +82,10 @@ html {
   opacity: 0;
   transition: opacity 0.4s ease;
   pointer-events: none;
-  z-index: 2; /* 👈 makes gradient appear above image */
+  z-index: -50; /* 👈 makes gradient appear above image */
 }
 
 .card-spotlight:hover::before,
 .card-spotlight:focus-within::before {
-  opacity: 0.6; /* stronger glow */
+  opacity: 0.4; /* stronger glow */
 }
