@@ -1,38 +1,53 @@
 import React, { useRef, useEffect } from "react";
 import bgimg from "../assets/WE ARE PFC.png";
 import team from "../JSON/Team.json"; // import your team.json file
+import SpotlightCard from "../components/SpotlightCard";
+import TextTiltCard from "../components/TextTiltCard";
 
 const LetterCard = ({ name, position, instagram, image, description }) => (
-  <div className="letter-card w-72 sm:w-80 p-3 flex-shrink-0 rounded-xl border border-white/20 bg-black/50 hover:bg-black/40 transition-all duration-300">
-    <div className="flex items-center mb-2 gap-3 border-b border-white/20 pb-2">
-      <img
-        src={`/${image}`}
-        alt={name}
-        className="w-12 h-12 sm:w-16 sm:h-16 rounded-full object-cover border border-white/20 flex-shrink-0"
-        onError={(e) =>
-          (e.target.src =
-            "https://via.placeholder.com/150/333/fff?text=No+Image")
-        }
-      />
-      <div className="flex flex-col justify-center text-sm min-w-0">
-        <span className="font-semibold truncate">{name}</span>
-        <span className="opacity-70 text-xs sm:text-sm truncate">{position}</span>
-        {instagram && (
-          <a
-            href={instagram}
-            className="opacity-60 hover:opacity-80 transition-opacity text-xs truncate"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {instagram
-              .replace("https://www.instagram.com/", "@")
-              .replace("/", "")}
-          </a>
-        )}
+  <TextTiltCard className="h-full">
+    <SpotlightCard className="rounded-xl">
+      <div className="letter-card w-72 sm:w-80 p-3 rounded-xl border border-white/20 bg-black/50 hover:bg-black/40 transition-all duration-300 flex">
+        {/* Left Image - 30% */}
+        <div className="flex-shrink-0 w-1/3 flex justify-center items-start">
+          <img
+            src={`/${image}`}
+            alt={name}
+            className="w-full h-full rounded-md object-cover border border-white/20"
+            onError={(e) =>
+              (e.target.src =
+                "https://via.placeholder.com/150/333/fff?text=No+Image")
+            }
+          />
+        </div>
+
+        {/* Right Content - 70% */}
+        <div className="ml-3 w-2/3 flex flex-col justify-start text-right">
+          <div className="flex flex-col justify-center text-sm min-w-0 mb-2">
+            <span className="font-semibold truncate">{name}</span>
+            <span className="opacity-70 text-xs sm:text-sm truncate">
+              {position}
+            </span>
+            {instagram && (
+              <a
+                href={instagram}
+                className="opacity-60 hover:opacity-80 transition-opacity text-xs truncate"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {instagram
+                  .replace("https://www.instagram.com/", "@")
+                  .replace("/", "")}
+              </a>
+            )}
+          </div>
+          <p className="text-xs sm:text-xs text-right opacity-80 leading-snug line-clamp-4">
+            {description}
+          </p>
+        </div>
       </div>
-    </div>
-    <p className="text-xs sm:text-sm opacity-80 leading-snug line-clamp-3">{description}</p>
-  </div>
+    </SpotlightCard>
+  </TextTiltCard>
 );
 
 const LettersCarousel = () => {
