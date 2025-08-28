@@ -29,7 +29,7 @@ const LetterCard = ({ name, position, instagram, image, description }) => (
 
           {/* Right Content - 70% */}
           <div className="ml-3 w-2/3 flex flex-col justify-start text-right">
-            <div className="flex flex-col justify-center text-sm min-w-0 mb-2">
+            <div className="flex flex-col justify-center text-sm min-w-0 mb-2 border-b border-white/20 pb-2">
               <span className="font-semibold truncate">{name}</span>
               <span className="opacity-70 text-xs sm:text-sm truncate">
                 {position}
