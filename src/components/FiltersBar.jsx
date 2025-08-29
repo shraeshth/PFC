@@ -11,17 +11,17 @@ const FiltersBar = ({ active, counts = {}, onSelect }) => {
             key={cat}
             onClick={() => onSelect(cat)}
             className={[
-              "px-4 py-2 rounded-full border transition-colors flex items-center gap-1",
+              "px-4 py-2 rounded-full flex items-center gap-1",
               isActive
-                ? "bg-white text-black border-white"
-                : " text-white/90 backdrop-blur-2xl bg-white/10 border-[0.1px] border-white/10",
+                ? "bg-[#ea5eb4] text-white"
+                : " text-black/80 backdrop-blur-2xl bg-white border-[0.1px] border-white/10 hover:scale-105 ",
             ].join(" ")}
           >
             <span className={isActive ? "font-semibold" : ""}>{cat}</span>
             <span
               className={[
-                "ml-1 text-sm",
-                isActive ? "text-black/70 font-medium" : "text-white/60",
+                "ml-1 text-2sm font-figtree",
+                isActive ? "text-white/70 font-medium" : "text-black/50",
               ].join(" ")}
             >
               ({counts?.[cat] ?? 0})

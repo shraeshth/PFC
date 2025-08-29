@@ -159,14 +159,14 @@ const MasonryGrid = ({ items, onImageClick }) => {
   return (
     <div
       ref={containerRef}
-      className="relative w-full max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8"
+      className="relative w-full max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8 mb-10"
       style={{ height: totalHeight }}
     >
       {grid.map((g) => (
         <div
           key={g.id}
           ref={(el) => setItemRef(el, g.id)}
-          className="absolute will-change-transform cursor-pointer"
+          className="absolute will-change-transform cursor-pointer border-[0.1px] border-white/30 rounded-lg"
           style={{ 
             width: g.w, 
             height: g.h, 

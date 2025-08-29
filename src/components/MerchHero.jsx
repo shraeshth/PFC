@@ -26,55 +26,31 @@ const MerchHero = () => {
       ref={heroRef}
       className="relative h-screen text-white flex items-center justify-center overflow-hidden fade-in-up"
     >
-      {/* Background Image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage:
-            "url('https://plus.unsplash.com/premium_photo-1734581720105-79b670992e46?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
-        }}
+      {/* Background Video */}
+      <video
+        className="absolute inset-0 w-full h-full object-cover"
+        src="https://res.cloudinary.com/dbk50pszr/video/upload/q_auto,f_auto/0829_3_y4iapa.mp4"
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="auto"
+        poster="https://res.cloudinary.com/dbk50pszr/video/upload/so_0/0829_3_y4iapa.jpg"
       />
+
       {/* Dark overlay for readability */}
-      <div className="absolute inset-0 bg-black/60" />
-
-      {/* Minimal nav */}
-      <nav className="absolute top-8 left-8 right-8 flex justify-between items-center z-20 text-sm">
-        <div className="flex items-center space-x-8">
-          <span className="font-light tracking-widest">PHOTO CLUB</span>
-          <span className="text-gray-300">{time}</span>
-        </div>
-        <div className="flex items-center space-x-6">
-          <span className="text-gray-300">LIMITED DROP</span>
-        </div>
-      </nav>
-
-      {/* Subtle grid overlay */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="grid grid-cols-12 h-full">
-          {[...Array(12)].map((_, i) => (
-            <div key={i} className="border-r border-white/20"></div>
-          ))}
-        </div>
-      </div>
+      <div className="absolute inset-0 " />
 
       {/* Hero Text */}
-      <div className="text-center z-20 px-4 flex flex-col items-center justify-center">
+      <div className="text-center z-20 px-4 mt-15 flex flex-col items-center justify-center">
         <h1 className="text-7xl md:text-9xl font-bold tracking-tighter leading-none">
-          FRAME
+          WEAR
         </h1>
-        <h1 className="text-7xl md:text-9xl font-bold tracking-tighter leading-none text-gray-300">
+        <h1 className="text-7xl md:text-9xl font-bold tracking-tighter leading-none text-[#ea5eb4]">
           VISION
         </h1>
 
-        <div className="mt-12 flex items-center justify-center gap-4 text-sm tracking-widest uppercase">
-          <span>LIMITED</span>
-          <div className="flex-1 h-px bg-white"></div>
-          <span>MERCH</span>
-          <div className="flex-1 h-px bg-white"></div>
-          <span>DROP</span>
-        </div>
-
-        <button className="bg-black/10 backdrop-blur-md mt-7 text-white rounded-4xl border-[0.1px] border-white/20 px-7 py-4 text-sm hover:bg-white hover:text-black transition-colors duration-300">
+        <button className="bg-black/10 backdrop-blur-md mt-7 text-white rounded-4xl border-[0.1px] border-white/20 px-7 py-4 font-figtree text-sm hover:bg-[#ea5eb4] hover:text-white transition-colors duration-300">
           Coming Soon
         </button>
       </div>

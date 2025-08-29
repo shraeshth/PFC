@@ -27,7 +27,7 @@ const eventsData = [
   },
   {
     id: 2,
-    title: "Cinematic Storytelling Workshop",
+    title: "Flatlay Photography",
     date: "2025-08-25",
     time: "10:00 AM",
     location: "Black Box Theater",

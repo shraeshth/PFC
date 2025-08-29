@@ -30,9 +30,9 @@ const FooterCTA = () => {
           <h2 className="text-5xl md:text-6xl font-light tracking-tight leading-tight mb-8 text-left">
             WEAR THE
             <br />
-            <span className="text-gray-400">VISION</span>
+            <span className="text-white">VISION</span>
           </h2>
-          <button className="bg-white text-black rounded-4xl px-12 py-4 font-extrabold tracking-widest hover:scale-[1.02] transition-all duration-500 self-start">
+          <button className="bg-[#ea5eb4] text-white rounded-4xl px-12 py-4 font-extrabold tracking-widest hover:scale-[1.02] transition-all duration-500 self-start">
             SHOP COLLECTION
           </button>
         </div>

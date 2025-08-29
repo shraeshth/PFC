@@ -85,24 +85,24 @@ const Gallery = () => {
 
   // For next/prev in preview, pass the whole filtered array
   return (
-    <div className="min-h-screen w-full bg-">
-      <div className="max-w-7xl mx-auto">
-        <div className="absolute inset-0 z-[-1] h-[70%] overflow-hidden opacity-[0.8]">
+    <div className="min-h-screen w-full">
+      <div className="max-w-full mx-auto">
+        <div className="absolute inset-0 z-[-1] h-full overflow-hidden opacity-[0.7]">
           <img
-            src="https://images.unsplash.com/photo-1755447277057-be3aaa75f063?q=80&w=1732&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            className="absolute z-[-10] w-full "
+            src="https://res.cloudinary.com/dbk50pszr/image/upload/v1755506294/anirudh-ib3d1uX1LLc-unsplash_n4y4gy.jpg"
+            className="absolute z-[-10] w-full top-0 h-full object-cover"
           />
         </div>
         {/* Header */}
-        <div className="text-center h-[80vh] flex flex-col items-center justify-center ">
+        <div className="backdrop-blur-[1px] w-full text-center h-screen mt-10 mb-10 flex flex-col items-center justify-center ">
           <header className="text-center mb-10  flex flex-col items-center justify-center">
             <h1
               ref={headingRef}
-              className="text-5xl md:text-6xl font-light tracking-tight"
+              className="text-5xl md:text-8xl font-light tracking-tight"
             >
               Gallery
             </h1>
-            <p ref={subRef} className="mt-3 text-white/70 text-lg">
+            <p ref={subRef} className="mt-3 text-white text-xl font-figtree">
               A curated selection of photographs — minimal, timeless, and bold.
             </p>
           </header>
@@ -114,13 +114,20 @@ const Gallery = () => {
               counts={counts}
               onSelect={setCategory}
             />
-            <div className="mt-3 text-center text-sm text-white/60">
-              Showing {filtered.length}{" "}
-              {categoryParam === "All"
-                ? "works"
-                : `${categoryParam.toLowerCase()} works`}
-            </div>
           </section>
+
+          {/* Scroll indicator */}
+          <div className="absolute bottom-20 left-1/2 transform -translate-x-1/2 text-white/40 animate-bounce">
+            <div className="w-50 h-8 flex justify-center items-center flex-col">
+              <div className="text-center text-sm text-white/70 animate-pulse">
+                Showing {filtered.length}{" "}
+                {categoryParam === "All"
+                  ? "works"
+                  : `${categoryParam.toLowerCase()} works`}
+              </div>
+              <i className="ri-arrow-down-s-line text-white/70 text-xl mt-1 animate-pulse"></i>
+            </div>
+          </div>
         </div>
 
         {/* Grid */}

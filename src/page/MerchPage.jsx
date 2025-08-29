@@ -27,10 +27,9 @@ const MerchPage = () => {
   return (
     <div className="min-h-screen">
       <MerchHero />
-      <MerchGrid />
-      <StatsSection />
-      <ManifestoSection />
       <FeaturesSection />
+      <MerchGrid />
+      <ManifestoSection />
       <FooterCTA />
     </div>
   );

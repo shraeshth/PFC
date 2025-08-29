@@ -4,14 +4,17 @@ import { X, ChevronLeft, ChevronRight, Download, Share2 } from "lucide-react";
 const ImagePreview = ({ image, isOpen, onClose, allImages, onNavigate }) => {
   const [loaded, setLoaded] = useState(false);
 
-  const currentIndex = image ? allImages.findIndex((i) => i.id === image.id) : -1;
+  const currentIndex = image
+    ? allImages.findIndex((i) => i.id === image.id)
+    : -1;
 
   const navigate = useCallback(
     (dir) => {
       if (currentIndex < 0) return;
-      const nextIndex = dir === "next"
-        ? (currentIndex + 1) % allImages.length
-        : (currentIndex - 1 + allImages.length) % allImages.length;
+      const nextIndex =
+        dir === "next"
+          ? (currentIndex + 1) % allImages.length
+          : (currentIndex - 1 + allImages.length) % allImages.length;
       onNavigate(allImages[nextIndex]);
       setLoaded(false);
     },
@@ -52,7 +55,11 @@ const ImagePreview = ({ image, isOpen, onClose, allImages, onNavigate }) => {
   const share = async () => {
     if (navigator.share) {
       try {
-        await navigator.share({ title: image.title, text: image.title, url: window.location.href });
+        await navigator.share({
+          title: image.title,
+          text: image.title,
+          url: window.location.href,
+        });
       } catch (e) {
         console.error("Share cancelled/failed", e);
       }
@@ -63,9 +70,18 @@ const ImagePreview = ({ image, isOpen, onClose, allImages, onNavigate }) => {
   };
 
   return (
-    <div className="fixed inset-0 z-[250] bg-black/90 flex items-center justify-center" onClick={onClose}>
-      <div className="relative w-full h-full flex items-center justify-center" onClick={(e) => e.stopPropagation()}>
-        <button className="absolute top-5 right-5 text-white p-2 rounded-full hover:bg-white/10" onClick={onClose}>
+    <div
+      className="fixed inset-0 z-[250] bg-white/5 backdrop-blur-lg flex items-center justify-center"
+      onClick={onClose}
+    >
+      <div
+        className="relative w-full h-full flex items-center justify-center"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <button
+          className="absolute top-5 right-5 text-white p-2 rounded-full hover:bg-white/10"
+          onClick={onClose}
+        >
           <X size={22} />
         </button>
 
@@ -86,7 +102,7 @@ const ImagePreview = ({ image, isOpen, onClose, allImages, onNavigate }) => {
           src={image.url}
           alt={image.title}
           onLoad={() => setLoaded(true)}
-          className={`max-h-[85vh] max-w-[92vw] object-contain transition-opacity duration-500 ${
+          className={`max-h-[85vh] max-w-[92vw] object-contain transition-opacity duration-500 rounded-2xl ${
             loaded ? "opacity-100" : "opacity-0"
           }`}
         />
@@ -97,10 +113,16 @@ const ImagePreview = ({ image, isOpen, onClose, allImages, onNavigate }) => {
         </div>
 
         <div className="absolute bottom-4 right-4 flex gap-2">
-          <button onClick={share} className="p-3 text-white rounded-full hover:bg-white/10">
+          <button
+            onClick={share}
+            className="p-3 text-white rounded-full hover:bg-white/10"
+          >
             <Share2 size={18} />
           </button>
-          <button onClick={download} className="p-3 text-white rounded-full hover:bg-white/10">
+          <button
+            onClick={download}
+            className="p-3 text-white rounded-full hover:bg-white/10"
+          >
             <Download size={18} />
           </button>
         </div>

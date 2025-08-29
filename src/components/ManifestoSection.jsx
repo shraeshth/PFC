@@ -7,30 +7,31 @@ const ManifestoSection = () => {
   return (
     <div
       ref={manifestoRef}
-      className="relative py-32 fade-in-up text-white"
-      style={{
-        backgroundImage:
-          "url('https://images.unsplash.com/photo-1586396847415-2c76ae7e79fc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-      }}
+      className="relative h-screen text-white flex items-center justify-center overflow-hidden fade-in-up"
     >
-      {/* Optional overlay for readability */}
-      <div className=" bg-opacity-50 py-32">
-        <div className="max-w-4xl mx-auto px-8 text-center">
-          <div className="space-y-8">
-            <h2 className="text-6xl md:text-7xl font-light tracking-tight leading-tight">
-              ONLY FOR
-              <br />
-              <span className="text-gray-300">VISIONARIES</span>
-            </h2>
-            <p className="text-lg text-gray-300 leading-relaxed max-w-2xl mx-auto">
-              Every frame tells a story. Every piece in this collection carries
-              the vision of creators who dare to see differently.
-            </p>
-          </div>
-        </div>
+      {/* Background Video */}
+      <video
+        className="absolute inset-0 w-full h-full object-cover grayscale"
+        src="https://res.cloudinary.com/dbk50pszr/video/upload/q_auto,f_auto/0829_2_nvwun6.mp4"
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="auto"
+        poster="https://res.cloudinary.com/dbk50pszr/video/upload/so_0/0829_2_nvwun6.jpg"
+      />
+
+      {/* Foreground Content */}
+      <div className="relative z-20 text-center px-8">
+        <h2 className="text-6xl md:text-7xl font-light tracking-tight leading-tight">
+          ONLY FOR
+          <br />
+          <span className="text-[#ea5eb4]">VISIONARIES</span>
+        </h2>
+        <p className="mt-8 text-lg font-figtree text-white leading-relaxed max-w-2xl mx-auto">
+          Every frame tells a story. Every piece in this collection carries the
+          vision of creators who dare to see differently.
+        </p>
       </div>
     </div>
   );

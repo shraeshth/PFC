@@ -9,7 +9,7 @@ const MerchCard = ({ product }) => {
     <TextTiltCard>
       <SpotlightCard>
         <div
-          className="relative w-full h-[400px] break-inside-avoid rounded-xl overflow-hidden border-[0.1px] border-white/20 bg-black text-white transition-all duration-300"
+          className="relative w-full h-[400px] break-inside-avoid rounded-xl overflow-hidden border-[0.1px] border-white/10 bg-white text-white transition-all duration-300"
           onMouseEnter={() => setHovered(true)}
           onMouseLeave={() => setHovered(false)}
         >
@@ -24,7 +24,7 @@ const MerchCard = ({ product }) => {
 
           {/* Details overlay (appears on hover) */}
           <div
-            className={`absolute inset-0 flex flex-col justify-center items-center text-center px-6 transition-all duration-500 ${
+            className={`absolute bg-black/80 inset-0 flex flex-col justify-center items-center text-center px-6 transition-all duration-500 ${
               hovered ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
             }`}
           >
@@ -33,17 +33,17 @@ const MerchCard = ({ product }) => {
             </h3>
             <p className="text-gray-400 text-sm mt-1">{product.description}</p>
             <div className="mt-4 flex justify-between items-center w-full">
-              <span className="font-bold text-xl">${product.price}</span>
-              <span className="text-xs tracking-widest text-blue-300">
+              <span className="font-light text-xl">₹{product.price}</span>
+              <span className="text-xs tracking-widest text-red-300">
                 LIMITED
               </span>
             </div>
             <button
               className="mt-4 w-full rounded-lg bg-white/10 text-white py-2 text-sm font-medium tracking-wide 
                 shadow-md transform transition-all duration-500 ease-out
-                hover:bg-gray-200 hover:text-black"
+                hover:bg-[#ea5eb4] hover:text-white"
             >
-              SHOP NOW
+              {product.status}
             </button>
           </div>
         </div>

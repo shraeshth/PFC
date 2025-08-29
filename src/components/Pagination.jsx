@@ -14,8 +14,8 @@ const Pagination = ({ current, total, onChange }) => {
           className={[
             "min-w-[40px] px-3 py-2 rounded-4xl border transition-colors",
             p === current
-              ? "bg-white text-black border-black/30 font-medium"
-              : "bg-transparent text-white/90 border-black hover:border-white/40"
+              ? "bg-[#ea5eb4] text-white border-black/30 font-medium"
+              : "bg-transparent text-white/90 border-black hover:border-[#ea5eb4]"
           ].join(" ")}
           aria-current={p === current ? "page" : undefined}
         >
