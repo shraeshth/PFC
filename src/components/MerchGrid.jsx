@@ -21,7 +21,7 @@ const products = [
   },
   {
     name: "Polaroid",
-    description: "Embroidered logo",
+    description: "Print Yours",
     price: 50,
     image:
       "https://images.unsplash.com/photo-1617643049077-7e2e755c8b8c?q=80&w=946&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -45,7 +45,7 @@ const products = [
   },
   {
     name: "Director Notes",
-    description: "Film strip design",
+    description: "Diary",
     price: 299,
     image:
       "https://res.cloudinary.com/dbk50pszr/image/upload/v1756483320/3_uqfgks.png",

@@ -79,18 +79,19 @@ const LogoCarousel = () => {
                     key={`${logo.name}-${index}`}
                     className="flex-shrink-0 mx-5 lg:mx-5"
                   >
-                    <div className="w-32 h-16 lg:w-40 lg:h-30 flex items-center justify-center transition-all duration-1000">
+                    <div className="w-32 h-16 lg:w-40 lg:h-30 flex items-center justify-center ">
                       <img
                         src={logo.src}
                         alt={logo.name}
                         className="logo-img max-w-full max-h-full object-contain"
+                        loading="lazy"
                         onError={(e) => {
                           e.target.src = `data:image/svg+xml,${encodeURIComponent(`
-                            <svg width="120" height="60" xmlns="http://www.w3.org/2000/svg">
-                              <rect width="120" height="60" fill="#374151" stroke="#6b7280" stroke-width="1"/>
-                              <text x="60" y="35" text-anchor="middle" fill="#9ca3af" font-family="Arial" font-size="12">${logo.name}</text>
-                            </svg>
-                          `)}`;
+                          <svg width="120" height="60" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="120" height="60" fill="#374151" stroke="#6b7280" stroke-width="1"/>
+                            <text x="60" y="35" text-anchor="middle" fill="#9ca3af" font-family="Arial" font-size="12">${logo.name}</text>
+                          </svg>
+                        `)}`;
                         }}
                       />
                     </div>
