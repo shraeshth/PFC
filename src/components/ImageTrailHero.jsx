@@ -363,7 +363,13 @@ const ImageTrailHero = () => {
               {/* Arrow (clean, no overlay) */}
               <div className="flex items-center justify-center w-0 group-hover:w-5 h-6 opacity-0 group-hover:opacity-100 transition-all duration-300 overflow-hidden">
                 <div className="absolute right-2 flex items-center justify-center w-10 h-10 rounded-full bg-white">
-                  <i className="ri-arrow-right-up-line text-[#ff66c4] text-3xl font-light"></i>
+                  <a
+                    href="https://chat.whatsapp.com/LhYQo4fJD9D5lCT75bSPRa?mode=ems_copy_t"
+                    target="_blank"
+                    className="flex items-center justify-center w-full h-full"
+                  >
+                    <i className="ri-arrow-right-up-line text-[#ff66c4] text-3xl font-light"></i>
+                  </a>
                 </div>
               </div>
             </button>
