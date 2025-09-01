@@ -1,32 +1,506 @@
 [
   {
     "id": 1,
-    "title": "Photography Workshop",
-    "date": "2025-09-10",
-    "time": "3:00 PM",
-    "location": "Auditorium Hall, Campus",
-    "description": "Hands-on workshop teaching basics of DSLR photography, framing, and editing.",
-    "banner": "images/events/photo-workshop.jpg",
-    "tags": ["photography", "workshop", "club"]
+    "title": "Recruitment Drive 24'",
+    "date": "2024-09-20",
+    "time": "10:00 AM",
+    "location": "Campus",
+    "description": "A comprehensive recruitment campaign utilizing social media and campus posters, followed by an orientation session to introduce new members to the club's goals and activities.",
+    "banner": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=400&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=600&h=400&fit=crop"
+    ],
+    "tags": ["recruitment", "drive", "club"],
+    "type": "club",
+    "availability": "archive",
+    "broad_filter": "Club & Community"
   },
   {
     "id": 2,
-    "title": "Design Hackathon",
-    "date": "2025-08-25",
-    "time": "10:00 AM",
-    "location": "Innovation Lab",
-    "description": "24-hour hackathon focused on UI/UX and design challenges.",
-    "banner": "images/events/design-hackathon.jpg",
-    "tags": ["competition", "design", "hackathon"]
+    "title": "Freshers Introduction Video 24'",
+    "date": "2024-10-15",
+    "time": "3:00 PM",
+    "location": "Lecture Theatre, Campus",
+    "description": "We will shoot a fun, Gen Z-themed introduction video featuring new students. The event will focus on capturing their personality and showcasing their unique perspectives on college life.",
+    "banner": "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=800&h=400&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop"
+    ],
+    "tags": ["video", "freshers", "gen z", "interviews", "club"],
+    "type": "videography",
+    "availability": "archive",
+    "broad_filter": "Club & Community"
+  },
+    {
+    "id": 2,
+    "title": "Freshers Introduction Video 25'",
+    "date": "2024-10-15",
+    "time": "3:00 PM",
+    "location": "Lecture Theatre, Campus",
+    "description": "We will shoot a fun, Gen Z-themed introduction video featuring new students. The event will focus on capturing their personality and showcasing their unique perspectives on college life.",
+    "banner": "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=800&h=400&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop"
+    ],
+    "tags": ["video", "freshers", "gen z", "interviews", "club"],
+    "type": "videography",
+    "availability": "upcoming",
+    "broad_filter": "Club & Community"
   },
   {
     "id": 3,
-    "title": "Film Screening",
-    "date": "2025-07-15",
+    "title": "Merch Photography and Fashion Shoot",
+    "date": "2024-10-25",
+    "time": "10:00 AM",
+    "location": "Lecture Theatre, Campus",
+    "description": "An event focused on shooting our new merchandise. We will hold a model shoot to capture fashion and lifestyle photos, helping members practice their photo and video skills in a professional setting.",
+    "banner": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=400&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=600&h=400&fit=crop"
+    ],
+    "tags": ["photography", "fashion", "merchandise", "video", "models"],
+    "type": "photography",
+    "availability": "upcoming",
+    "broad_filter": "Photography & Videography"
+  },
+  {
+    "id": 4,
+    "title": "New Graphic Designs for Merch",
+    "date": "2024-11-15",
+    "time": "10:00 AM",
+    "location": "Lecture Theatre, Campus",
+    "description": "A design competition for members to create new graphic designs for our club's merchandise, including t-shirts, caps, and other items. The winning designs will be used in our next collection.",
+    "banner": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&h=400&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1558655146-d09347e92766?w=600&h=400&fit=crop"
+    ],
+    "tags": ["design", "competition", "graphic design", "merchandise"],
+    "type": "design",
+    "availability": "upcoming",
+    "broad_filter": "Design & Marketing"
+  },
+  {
+    "id": 5,
+    "title": "Photography Workshop for Beginners",
+    "date": "2024-12-05",
+    "time": "3:00 PM",
+    "location": "Petroleum Department Club Room",
+    "description": "A workshop focused on lighting techniques, composition, and editing to help new members develop their skills.",
+    "banner": "https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?w=800&h=400&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=600&h=400&fit=crop"
+    ],
+    "tags": ["photography", "workshop", "beginners", "editing", "composition"],
+    "type": "photography",
+    "availability": "upcoming",
+    "broad_filter": "Photography & Videography"
+  },
+    {
+    "id": 5,
+    "title": "Photography Workshop for Beginners 24'",
+    "date": "2024-12-05",
+    "time": "3:00 PM",
+    "location": "Petroleum Department Club Room",
+    "description": "A workshop focused on lighting techniques, composition, and editing to help new members develop their skills.",
+    "banner": "https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?w=800&h=400&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=600&h=400&fit=crop"
+    ],
+    "tags": ["photography", "workshop", "beginners", "editing", "composition"],
+    "type": "photography",
+    "availability": "archive",
+    "broad_filter": "Photography & Videography"
+  },
+  {
+    "id": 6,
+    "title": "Flatlay & Product Photography",
+    "date": "2024-09-15",
+    "time": "11:00 AM",
+    "location": "Petroleum Department Club Room",
+    "description": "A hands-on workshop where members learned about lighting, composition, and editing specifically for product photography. This provided an opportunity to gain practical experience and showcase skills.",
+    "banner": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&h=400&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=400&fit=crop"
+    ],
+    "tags": ["photography", "workshop", "product"],
+    "type": "photography",
+    "availability": "archive",
+    "broad_filter": "Photography & Videography"
+  },
+  {
+    "id": 7,
+    "title": "Light Painting Workshop",
+    "date": "2024-09-22",
+    "time": "7:00 PM",
+    "location": "Campus Grounds",
+    "description": "Members learned to use long exposures and various light sources to create artistic and unique images, including capturing the beauty of the night sky and surrounding environment.",
+    "banner": "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=800&h=400&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=400&fit=crop"
+    ],
+    "tags": ["photography", "workshop", "light painting", "long exposure"],
+    "type": "photography",
+    "availability": "archive",
+    "broad_filter": "Photography & Videography"
+  },
+  {
+    "id": 8,
+    "title": "Photo Wall Decoration",
+    "date": "2024-09-29",
+    "time": "1:00 PM",
+    "location": "Petroleum Department Club Room",
+    "description": "An event where members collaborated to install a photowall using submitted designs. This activity fostered teamwork and a sense of community.",
+    "banner": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=800&h=400&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1533227268428-f9ed0900fb3b?w=600&h=400&fit=crop"
+    ],
+    "tags": ["community", "design", "exhibition", "teamwork"],
+    "type": "club",
+    "availability": "archive",
+    "broad_filter": "Club & Community"
+  },
+  {
+    "id": 9,
+    "title": "IIT-R Thomso Photo Competition",
+    "date": "2024-10-05",
+    "time": "All Day",
+    "location": "IIT Roorkee",
+    "description": "A team of members participated in IIT-Roorkee's prestigious photo competition, showcasing the club's talent and creativity on a larger platform.",
+    "banner": "https://images.unsplash.com/photo-1551887373-6edba6dacbb1?w=800&h=400&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1564131925706-b4ca9b3e6dd9?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=600&h=400&fit=crop"
+    ],
+    "tags": ["competition", "photography", "outstation", "showcase"],
+    "type": "photography",
+    "availability": "archive",
+    "broad_filter": "Competition"
+  },
+  {
+    "id": 10,
+    "title": "Thar Promotion",
+    "date": "2024-11-10",
+    "time": "11:00 AM",
+    "location": "Campus",
+    "description": "A promotional campaign to generate excitement and awareness about the Thar event among students and the wider community through social media and campus posters.",
+    "banner": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=400&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1558655146-d09347e92766?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1533227268428-f9ed0900fb3b?w=600&h=400&fit=crop"
+    ],
+    "tags": ["promotion", "event", "marketing"],
+    "type": "marketing",
+    "availability": "archive",
+    "broad_filter": "Design & Marketing"
+  },
+  {
+    "id": 11,
+    "title": "VlogFest at Thar'24",
+    "date": "2024-11-20",
+    "time": "1:00 PM",
+    "location": "Thar Event Venue",
+    "description": "Led the organization of VlogFest, an event at Thar'24 featuring vlogging competitions, workshops, and panel discussions with industry experts.",
+    "banner": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=400&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1551818255-e6e10975bc17?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop"
+    ],
+    "tags": ["vlogging", "competition", "workshop", "event"],
+    "type": "videography",
+    "availability": "archive",
+    "broad_filter": "Competition"
+  },
+  {
+    "id": 12,
+    "title": "TharVista Competition",
+    "date": "2024-11-20",
+    "time": "All Day",
+    "location": "Thar Event Venue",
+    "description": "A photography and videography competition that showcased the creative talents of students at Thar'24. Winning entries were selected based on technical skill and artistic vision.",
+    "banner": "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=800&h=400&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1564131925706-b4ca9b3e6dd9?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&h=400&fit=crop"
+    ],
+    "tags": ["photography", "videography", "competition", "event"],
+    "type": "photography",
+    "availability": "archive",
+    "broad_filter": "Competition"
+  },
+  {
+    "id": 13,
+    "title": "Photography Committee at Thar'24",
+    "date": "2024-11-20",
+    "time": "All Day",
+    "location": "Thar Event Venue",
+    "description": "Managed the photography and videography coverage for all aspects of the Thar'24 event, ensuring all highlights were captured effectively.",
+    "banner": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=800&h=400&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=600&h=400&fit=crop"
+    ],
+    "tags": ["event coverage", "photography", "videography", "teamwork"],
+    "type": "event",
+    "availability": "archive",
+    "broad_filter": "Photography & Videography"
+  },
+  {
+    "id": 14,
+    "title": "Online Photography Competition",
+    "date": "2024-11-25",
+    "time": "10:00 AM",
+    "location": "Online",
+    "description": "A competition for members to showcase their creative talents and artistic vision.",
+    "banner": "https://images.unsplash.com/photo-1551887373-6edba6dacbb1?w=800&h=400&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=600&h=400&fit=crop"
+    ],
+    "tags": ["competition", "photography", "online"],
+    "type": "photography",
+    "availability": "archive",
+    "broad_filter": "Competition"
+  },
+  {
+    "id": 15,
+    "title": "Photo Walk 22'",
+    "date": "2025-01-12",
+    "time": "9:00 AM",
+    "location": "TBD",
+    "description": "An outing for members to explore a new location and capture unique perspectives.",
+    "banner": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=400&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=600&h=400&fit=crop"
+    ],
+    "tags": ["photography", "field trip", "club"],
+    "type": "photography",
+    "availability": "archive",
+    "broad_filter": "Photography & Videography"
+  },
+    {
+    "id": 15,
+    "title": "Photo Walk 23'",
+    "date": "2025-01-12",
+    "time": "9:00 AM",
+    "location": "TBD",
+    "description": "An outing for members to explore a new location and capture unique perspectives.",
+    "banner": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=400&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=600&h=400&fit=crop"
+    ],
+    "tags": ["photography", "field trip", "club"],
+    "type": "photography",
+    "availability": "archive",
+    "broad_filter": "Photography & Videography"
+  },
+    {
+    "id": 15,
+    "title": "Photo Walk 24'",
+    "date": "2025-01-12",
+    "time": "9:00 AM",
+    "location": "TBD",
+    "description": "An outing for members to explore a new location and capture unique perspectives.",
+    "banner": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=400&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=600&h=400&fit=crop"
+    ],
+    "tags": ["photography", "field trip", "club"],
+    "type": "photography",
+    "availability": "archive",
+    "broad_filter": "Photography & Videography"
+  },
+    {
+    "id": 15,
+    "title": "Photo Walk 25'",
+    "date": "2025-01-12",
+    "time": "9:00 AM",
+    "location": "TBD",
+    "description": "An outing for members to explore a new location and capture unique perspectives.",
+    "banner": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=400&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=600&h=400&fit=crop"
+    ],
+    "tags": ["photography", "field trip", "club"],
+    "type": "photography",
+    "availability": "upcoming",
+    "broad_filter": "Photography & Videography"
+  },
+  {
+    "id": 16,
+    "title": "Photoshop / Lightroom Workshop",
+    "date": "2025-02-20",
+    "time": "3:00 PM",
+    "location": "Lecture Theatre, Campus",
+    "description": "A hands-on workshop for members to learn advanced editing techniques using industry-standard software like Photoshop and Lightroom.",
+    "banner": "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800&h=400&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=600&h=400&fit=crop"
+    ],
+    "tags": ["workshop", "editing", "photoshop", "lightroom"],
+    "type": "photography",
+    "availability": "archive",
+    "broad_filter": "Photography & Videography"
+  },
+  {
+    "id": 17,
+    "title": "Guest Lecture",
+    "date": "2025-04-10",
+    "time": "4:00 PM",
+    "location": "Auditorium Hall, Campus",
+    "description": "A guest lecture by a renowned photographer to share their experiences and provide valuable insights and mentorship.",
+    "banner": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&h=400&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=600&h=400&fit=crop"
+    ],
+    "tags": ["lecture", "guest speaker", "mentorship"],
+    "type": "club",
+    "availability": "archive",
+    "broad_filter": "Club & Community"
+  },
+    {
+    "id": 17,
+    "title": "Guest Lecture",
+    "date": "2025-04-10",
+    "time": "4:00 PM",
+    "location": "Auditorium Hall, Campus",
+    "description": "A guest lecture by a renowned photographer to share their experiences and provide valuable insights and mentorship.",
+    "banner": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&h=400&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=600&h=400&fit=crop"
+    ],
+    "tags": ["lecture", "guest speaker", "mentorship"],
+    "type": "club",
+    "availability": "upcoming",
+    "broad_filter": "Club & Community"
+  },
+  {
+    "id": 18,
+    "title": "Documentary Videos",
+    "date": "2025-05-15",
+    "time": "10:00 AM",
+    "location": "Campus",
+    "description": "A project focused on teaching members the process of creating a documentary, from conceptualization to shooting and editing.",
+    "banner": "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=800&h=400&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&h=400&fit=crop"
+    ],
+    "tags": ["videography", "documentary", "filmmaking"],
+    "type": "videography",
+    "availability": "archive",
+    "broad_filter": "Photography & Videography"
+  },
+  {
+    "id": 19,
+    "title": "Story Telling Videos",
+    "date": "2025-06-25",
+    "time": "10:00 AM",
+    "location": "TBD",
+    "description": "An event to help members hone their storytelling abilities through filmmaking, learning how to craft compelling narratives with their cameras.",
+    "banner": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=800&h=400&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1551818255-e6e10975bc17?w=600&h=400&fit=crop"
+    ],
+    "tags": ["videography", "storytelling", "filmmaking"],
+    "type": "videography",
+    "availability": "upcoming",
+    "broad_filter": "Photography & Videography"
+  },
+  {
+    "id": 20,
+    "title": "Annual Photography Exhibition",
+    "date": "2025-07-10",
     "time": "6:00 PM",
     "location": "Open Air Theatre",
-    "description": "An evening under the stars with an award-winning indie film.",
-    "banner": "images/events/film-screening.jpg",
-    "tags": ["film", "screening", "club"]
+    "description": "An exhibition showcasing the diverse perspectives and creative vision of the club's members.",
+    "banner": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=800&h=400&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1564131925706-b4ca9b3e6dd9?w=600&h=400&fit=crop"
+    ],
+    "tags": ["exhibition", "photography", "art"],
+    "type": "photography",
+    "availability": "archive",
+    "broad_filter": "Photography & Videography"
+  },
+  {
+    "id": 21,
+    "title": "30 Days Challenge",
+    "date": "2025-08-15",
+    "time": "All Day",
+    "location": "Online",
+    "description": "A challenge to encourage members to create and share new content daily, fostering creativity and consistent practice.",
+    "banner": "https://images.unsplash.com/photo-1551887373-6edba6dacbb1?w=800&h=400&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=600&h=400&fit=crop"
+    ],
+    "tags": ["challenge", "photography", "creativity"],
+    "type": "photography",
+    "availability": "archive",
+    "broad_filter": "Photography & Videography"
+  },
+  {
+    "id": 22,
+    "title": "Premier Pro Workshop",
+    "date": "2025-09-20",
+    "time": "3:00 PM",
+    "location": "Lecture Theatre, Campus",
+    "description": "A workshop focused on advanced video editing skills using Adobe Premiere Pro, covering topics from cutting to color grading.",
+    "banner": "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800&h=400&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=600&h=400&fit=crop"
+    ],
+    "tags": ["videography", "workshop", "editing", "premiere pro"],
+    "type": "videography",
+    "availability": "archive",
+    "broad_filter": "Photography & Videography"
   }
 ]

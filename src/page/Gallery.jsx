@@ -87,15 +87,16 @@ const Gallery = () => {
   return (
     <div className="min-h-screen w-full">
       <div className="max-w-full mx-auto">
-        <div className="absolute inset-0 z-[-1] h-full overflow-hidden opacity-[0.7]">
+        <div className="absolute inset-0 z-[-1] h-full overflow-hidden">
           <img
             src="https://res.cloudinary.com/dbk50pszr/image/upload/v1755506294/anirudh-ib3d1uX1LLc-unsplash_n4y4gy.jpg"
             className="absolute z-[-10] w-full top-0 h-full object-cover"
           />
         </div>
+        <div className="z-0 absolute inset-0 bg-gradient-to-b from-black/1 via-black/40 to-black" />
         {/* Header */}
-        <div className="backdrop-blur-[1px] w-full text-center h-screen mt-10 mb-10 flex flex-col items-center justify-center ">
-          <header className="text-center mb-10  flex flex-col items-center justify-center">
+        <div className="z-100 w-full text-center h-screen mt-10 flex flex-col items-center justify-center ">
+          <header className="text-center mb-10 flex flex-col items-center justify-center">
             <h1
               ref={headingRef}
               className="text-5xl md:text-8xl font-light tracking-tight"

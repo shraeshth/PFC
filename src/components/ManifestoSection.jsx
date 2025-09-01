@@ -7,7 +7,7 @@ const ManifestoSection = () => {
   return (
     <div
       ref={manifestoRef}
-      className="relative h-screen text-white flex items-center justify-center overflow-hidden fade-in-up"
+      className="relative h-[75vh] text-white flex items-center justify-center overflow-hidden fade-in-up"
     >
       {/* Background Video */}
       <video
@@ -20,6 +20,8 @@ const ManifestoSection = () => {
         preload="auto"
         poster="https://res.cloudinary.com/dbk50pszr/video/upload/so_0/0829_2_nvwun6.jpg"
       />
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black via-black/10 to-black" />
 
       {/* Foreground Content */}
       <div className="relative z-20 text-center px-8">

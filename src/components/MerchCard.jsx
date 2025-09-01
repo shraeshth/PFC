@@ -31,10 +31,14 @@ const MerchCard = ({ product }) => {
             <h3 className="font-medium text-lg tracking-wide">
               {product.name}
             </h3>
-            <p className="text-gray-400 text-sm mt-1">{product.description}</p>
+            <p className="text-gray-400 font-figtree text-sm mt-1">
+              {product.description}
+            </p>
             <div className="mt-4 flex justify-between items-center w-full">
-              <span className="font-light text-xl">₹{product.price}</span>
-              <span className="text-xs tracking-widest text-red-300">
+              <span className="font-light font-figtree text-xl">
+                ₹{product.price}
+              </span>
+              <span className="text-xs  font-figtree tracking-widest text-red-300">
                 LIMITED
               </span>
             </div>

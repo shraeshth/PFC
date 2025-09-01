@@ -1,12 +1,6 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import SpotlightCard from "./SpotlightCard";
-import {
-  Users,
-  CheckCircle,
-  BookOpen,
-  Shield,
-  Shield as ShieldIcon,
-} from "lucide-react";
+import TextTiltCard from "./TextTiltCard";
 
 const MembershipSection = () => {
   const [activeTab, setActiveTab] = useState("membership");
@@ -59,25 +53,25 @@ const MembershipSection = () => {
 
   const membershipRules = [
     {
-      icon: <Users size={20} />,
+      icon: <i className="ri-team-fill text-[#e95eb4] text-xl"></i>,
       title: "Open to All RTU Students",
       description:
         "Available to students from any department at Rajasthan Technical University, allowing everyone to explore photography and filmmaking.",
     },
     {
-      icon: <CheckCircle size={20} />,
+      icon: <i className="ri-checkbox-circle-fill text-[#e95eb4] text-xl"></i>,
       title: "Free Membership",
       description:
         "No fees required; participate in workshops, events, and projects without any cost.",
     },
     {
-      icon: <BookOpen size={20} />,
+      icon: <i className="ri-book-open-fill text-[#e95eb4] text-xl"></i>,
       title: "Application Process",
       description:
         "Complete a simple application and brief interview to join, ensuring members are aligned with club activities and interests.",
     },
     {
-      icon: <Shield size={20} />,
+      icon: <i className="ri-shield-fill text-[#e95eb4] text-xl"></i>,
       title: "Code of Conduct",
       description:
         "Members must follow university policies and club rules, maintaining a respectful and collaborative environment.",
@@ -111,13 +105,21 @@ const MembershipSection = () => {
       title: "Selection & Orientation",
       description:
         "Welcome new members and introduce club goals and activities",
-      timeline: "Ongoing",
+      timeline: "TBD",
     },
   ];
 
   const tabs = [
-    { id: "membership", label: "Membership", icon: <Users size={18} /> },
-    { id: "rules", label: "Rules", icon: <ShieldIcon size={18} /> },
+    {
+      id: "membership",
+      label: "Membership",
+      icon: <i className="ri-team-fill text-sm"></i>,
+    },
+    {
+      id: "rules",
+      label: "Rules",
+      icon: <i className="ri-shield-fill text-sm"></i>,
+    },
   ];
 
   return (
@@ -126,9 +128,9 @@ const MembershipSection = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-thin mb-6">
-            Join the <span className="text-white/70">Community</span>
+            Join the <span className="text-[#e95eb4]">Community</span>
           </h2>
-          <p className="text-lg font-light text-white/70 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg font-light text-white font-figtree max-w-2xl mx-auto leading-relaxed">
             Become part of RTU's premier photography and filming community
           </p>
         </div>
@@ -142,12 +144,12 @@ const MembershipSection = () => {
                 onClick={() => setActiveTab(tab.id)}
                 className={`px-6 py-3 flex items-center space-x-2 ${
                   activeTab === tab.id
-                    ? "bg-white text-black"
+                    ? "bg-[#e95eb4] text-white"
                     : "bg-transparent text-white"
                 }`}
               >
                 {tab.icon}
-                <span className="font-light">{tab.label}</span>
+                <span className="font-semibold">{tab.label}</span>
               </button>
             ))}
           </div>
@@ -158,76 +160,80 @@ const MembershipSection = () => {
           {activeTab === "membership" && (
             <div className="grid lg:grid-cols-2 gap-12">
               {/* Membership Requirements Box */}
-              <SpotlightCard className="p-6 border border-white/20 rounded-2xl flex flex-col justify-between h-full">
-                <h3 className="text-2xl font-light mb-6">
-                  Membership Requirements
-                </h3>
-                <div className="space-y-4">
-                  {membershipRules.map((rule, index) => (
-                    <div key={index} className="flex items-start space-x-4">
-                      <div className="mt-1">{rule.icon}</div>
-                      <div>
-                        <h4 className="font-light text-lg">{rule.title}</h4>
-                        <p className="text-white/70 text-sm leading-relaxed">
-                          {rule.description}
-                        </p>
+              <TextTiltCard>
+                <SpotlightCard className="p-6 border border-white/10 rounded-2xl flex flex-col justify-between h-full">
+                  <h3 className="text-2xl font-light mb-6">
+                    Membership Requirements
+                  </h3>
+                  <div className="space-y-4">
+                    {membershipRules.map((rule, index) => (
+                      <div key={index} className="flex items-start space-x-4">
+                        <div className="mt-1">{rule.icon}</div>
+                        <div>
+                          <h4 className="font-light text-lg">{rule.title}</h4>
+                          <p className="text-white/70 text-sm font-figtree leading-relaxed">
+                            {rule.description}
+                          </p>
+                        </div>
                       </div>
-                    </div>
-                  ))}
-                </div>
-              </SpotlightCard>
+                    ))}
+                  </div>
+                </SpotlightCard>
+              </TextTiltCard>
 
               {/* Recruitment Process Box */}
-              <SpotlightCard className="p-6 border border-white/20 rounded-2xl flex flex-col justify-between h-full">
-                <h3 className="text-2xl font-light mb-6">
-                  Recruitment Process
-                </h3>
-                <div className="space-y-4">
-                  {recruitmentSteps.map((step) => (
-                    <div key={step.step} className="flex items-start space-x-4">
-                      <div className="w-10 h-10 border border-white/20 rounded-full flex items-center justify-center text-white font-light">
-                        {step.step}
+              <TextTiltCard>
+                <SpotlightCard className="p-6 border border-white/10 rounded-2xl flex flex-col justify-between h-full">
+                  <h3 className="text-2xl font-light mb-6">
+                    Recruitment Process
+                  </h3>
+                  <div className="space-y-4">
+                    {recruitmentSteps.map((step) => (
+                      <div
+                        key={step.step}
+                        className="flex items-start space-x-4"
+                      >
+                        <div className="w-10 h-10 border border-white/20 rounded-full flex items-center justify-center text-[#e95eb4] font-light">
+                          {step.step}
+                        </div>
+                        <div className="flex-1">
+                          <h4 className="font-light text-lg">{step.title}</h4>
+                          <p className="text-white/70 text-sm font-figtree leading-relaxed">
+                            {step.description} ({step.timeline})
+                          </p>
+                        </div>
                       </div>
-                      <div className="flex-1">
-                        <h4 className="font-light text-lg">{step.title}</h4>
-                        <p className="text-white/70 text-sm leading-relaxed">
-                          {step.description} ({step.timeline})
-                        </p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </SpotlightCard>
+                    ))}
+                  </div>
+                </SpotlightCard>
+              </TextTiltCard>
             </div>
           )}
 
           {/* RULES TAB */}
+
           {activeTab === "rules" && (
             <div>
-              <h3 className="text-2xl font-light mb-8 text-center">
+              <h3 className="text-2xl font-bold mb-8 text-center">
                 Club Rules & Regulations
               </h3>
               <div className="grid lg:grid-cols-2 gap-4 max-w-4xl mx-auto">
                 {clubRules.map((rule) => (
-                  <SpotlightCard
-                    key={rule.id}
-                    className="border border-white/20 rounded-2xl p-6 cursor-pointer"
-                    onClick={() =>
-                      setExpandedRule(expandedRule === rule.id ? null : rule.id)
-                    }
-                  >
-                    <div className="flex items-center justify-between">
-                      <h4 className="font-light text-lg">{rule.title}</h4>
-                      <span className="text-xs px-2 py-1 rounded border border-white/20">
-                        {rule.importance.toUpperCase()}
-                      </span>
-                    </div>
-                    {expandedRule === rule.id && (
-                      <p className="mt-4 text-white/70 text-sm">
+                  <TextTiltCard key={rule.id}>
+                    <SpotlightCard className="border border-white/10 rounded-2xl p-6 h-full">
+                      <div className="flex items-center justify-between mb-4 ">
+                        <h4 className="font-light text-lg  ">
+                          {rule.title}
+                        </h4>
+                        <span className="text-xs px-2 py-1 rounded-xl border text-[#e95eb4] border-[#e95eb4]">
+                          {rule.importance.toUpperCase()}
+                        </span>
+                      </div>
+                      <p className="text-white/70 font-figtree text-sm">
                         {rule.description}
                       </p>
-                    )}
-                  </SpotlightCard>
+                    </SpotlightCard>
+                  </TextTiltCard>
                 ))}
               </div>
             </div>

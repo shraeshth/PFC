@@ -38,7 +38,7 @@ const FooterCTA = () => {
         </div>
 
         {/* Right Column: Marketing Content */}
-        <div className="md:w-1/2 flex flex-col justify-center space-y-8 text-right">
+        <div className="md:w-1/2 flex flex-col justify-center space-y-8 text-right font-figtree">
           {marketingSections.map((section, i) => (
             <div key={i}>
               <h3 className="text-xl font-semibold tracking-wide mb-2">

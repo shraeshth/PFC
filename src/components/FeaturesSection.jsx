@@ -16,9 +16,9 @@ const FeaturesSection = () => {
       title: "LIMITED EDITION",
       subtitle: "Campus exclusive",
       number: "02",
-      video:
-        "https://player.cloudinary.com/embed/?cloud_name=dbk50pszr&public_id=0829_1_do8l8t&profile=cld-default&autoplay=true&muted=true&loop=true&controls=false",
-      type: "video",
+      image:
+        "https://res.cloudinary.com/dbk50pszr/image/upload/v1755506522/T1_znwgs6.png",
+      type: "image",
     },
     {
       title: "FUNDS NEW PROJECTS",
@@ -31,16 +31,22 @@ const FeaturesSection = () => {
   ];
 
   return (
-    <div ref={featuresRef} className="relative fade-in-up mt-30 mb-20 p-15">
-      <div className="flex w-full">
+    <div
+      ref={featuresRef}
+      className="relative fade-in-up px-4 md:px-8 lg:px-16"
+    >
+      <div className="flex flex-col md:flex-row w-full gap-6">
         {features.map((feature, i) => (
-          <div key={i} className="relative w-1/3 h-96 overflow-hidden">
+          <div
+            key={i}
+            className="relative flex-1 h-64 md:h-80 lg:h-96 overflow-hidden rounded-3xl"
+          >
             {/* Background media */}
             {feature.type === "image" ? (
               <img
                 src={feature.image}
                 alt={feature.title}
-                className="absolute inset-0 w-full h-full object-cover opacity-30 rounded-3xl"
+                className="absolute inset-0 w-full h-full object-cover opacity-20 bg-[#E95EB4]"
               />
             ) : (
               <iframe
@@ -59,13 +65,13 @@ const FeaturesSection = () => {
 
             {/* Text content */}
             <div className="relative z-10 flex flex-col justify-center items-center h-full text-center px-4">
-              <div className="text-6xl font-light text-[#ea5eb4] transition-colors duration-500">
+              <div className="text-5xl md:text-6xl font-light text-[#ea5eb4]">
                 {feature.number}
               </div>
-              <h3 className="font-medium font-figtree text-lg tracking-wide mb-1 mt-2">
+              <h3 className="font-medium font-figtree text-base md:text-lg tracking-wide mb-1 mt-2">
                 {feature.title}
               </h3>
-              <p className="text-white/50 font-figtree text-sm tracking-wide">
+              <p className="text-white/60 font-figtree text-sm md:text-base tracking-wide">
                 {feature.subtitle}
               </p>
             </div>

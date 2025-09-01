@@ -29,24 +29,24 @@ const MerchHero = () => {
       {/* Background Video */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
-        src="https://res.cloudinary.com/dbk50pszr/video/upload/q_auto,f_auto/0829_3_y4iapa.mp4"
+        src="https://res.cloudinary.com/dbk50pszr/video/upload/q_auto,f_auto/0829_1_do8l8t.mp4"
         autoPlay
         muted
         loop
         playsInline
         preload="auto"
-        poster="https://res.cloudinary.com/dbk50pszr/video/upload/so_0/0829_3_y4iapa.jpg"
+        poster="https://res.cloudinary.com/dbk50pszr/video/upload/so_0/0829_1_do8l8t.jpg"
       />
 
-      {/* Dark overlay for readability */}
-      <div className="absolute inset-0 " />
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-black/40 to-black" />
 
       {/* Hero Text */}
       <div className="text-center z-20 px-4 mt-15 flex flex-col items-center justify-center">
-        <h1 className="text-7xl md:text-9xl font-bold tracking-tighter leading-none">
+        <h1 className="text-7xl md:text-8xl font-bold tracking-tighter leading-none">
           WEAR
         </h1>
-        <h1 className="text-7xl md:text-9xl font-bold tracking-tighter leading-none text-[#ea5eb4]">
+        <h1 className="text-7xl md:text-8xl font-bold tracking-tighter leading-none text-[#ea5eb4]">
           VISION
         </h1>
 

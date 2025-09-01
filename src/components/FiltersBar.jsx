@@ -3,7 +3,7 @@ import { CATEGORY_LABELS } from "./Categorize";
 
 const FiltersBar = ({ active, counts = {}, onSelect }) => {
   return (
-    <div className="w-full flex flex-wrap items-center justify-center gap-2 sm:gap-3">
+    <div className="z-100 w-full flex flex-wrap items-center justify-center gap-2 sm:gap-3">
       {CATEGORY_LABELS.map((cat) => {
         const isActive = active === cat;
         return (
@@ -13,7 +13,7 @@ const FiltersBar = ({ active, counts = {}, onSelect }) => {
             className={[
               "px-4 py-2 rounded-full flex items-center gap-1",
               isActive
-                ? "bg-[#ea5eb4] text-white"
+                ? "bg-[#ea5eb4] text-white z-100"
                 : " text-black/80 backdrop-blur-2xl bg-white border-[0.1px] border-white/10 hover:scale-105 ",
             ].join(" ")}
           >

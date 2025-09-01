@@ -3,7 +3,7 @@ import React from "react";
 function FooterText() {
   return (
     <div>
-      <div className="w-full mx-auto px-7 py-3 border-t border-white/30">
+      <div className="w-full mx-auto px-7 py-3 border-t border-[0.1px] border-white/20 font-figtree">
         <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left gap-6">
           {/* Copyright */}
           <div className="text-white/30 text-sm md:text-base">

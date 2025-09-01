@@ -94,7 +94,7 @@ const StatsSection = () => {
   const finalValues = {
     shots: 2500,
     creators: 150,
-    projects: 320,
+    projects: 30,
   };
 
   useEffect(() => {
@@ -160,7 +160,7 @@ const StatsSection = () => {
           transition={{ duration: 0.8, delay: i * 0.2 }}
         >
           <Counter value={stat.value} places={stat.places} />
-          <div className="mt-6 text-[#ea5eb4] text-sm tracking-widest">
+          <div className="mt-6 text-[#ea5eb4] font-figtree text-sm tracking-widest">
             {stat.label}
           </div>
         </motion.div>

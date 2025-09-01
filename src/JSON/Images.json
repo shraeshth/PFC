@@ -2,1001 +2,1096 @@
   {
     "id": 1,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744190157/_DSC0832_e1lhdh.jpg",
-    "title": "Pandit",
+    "title": "The Soul's Reflection",
     "description": "Anirudh",
-    "tags": ["person", "portrait", "religious", "man"],
+    "tags": [
+      "humanity",
+      "spirituality",
+      "contemplation",
+      "tradition",
+      "serenity"
+    ],
     "created_at": "2025-04-06T19:55:57Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/v1744190157/_DSC0832_e1lhdh.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/v1744190157/_DSC0832_e1lhdh.jpg",
+    "story": "The weight of a thousand silent moments rests upon him. His posture is a testament to the peace found in stillness, a quiet ritual that anchors a chaotic world. It is the story of a soul in communion with itself."
   },
   {
     "id": 2,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744191572/PXL_20230520_122205393_ier3sx.jpg",
-    "title": "2 Gate",
+    "title": "The Grand Entrance",
     "description": "Shreshth",
-    "tags": ["architecture", "gate", "building"],
+    "tags": ["architecture", "threshold", "passage", "urban", "structure"],
     "created_at": "2025-04-06T20:19:32Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/v1744191572/PXL_20230520_122205393_ier3sx.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/v1744191572/PXL_20230520_122205393_ier3sx.jpg",
+    "story": "A grand gateway stands open, inviting passage to a space unknown. It is not merely an entrance, but a symbol of decision, a moment where one world ends and another begins."
   },
   {
     "id": 3,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192065/20250301_133927_nhxkm8.jpg",
-    "title": "Sleeping in Train",
+    "title": "Dreams on the Tracks",
     "description": "Anirudh",
-    "tags": ["travel", "train", "person", "sleeping"],
+    "tags": ["travel", "journey", "rest", "urban"],
     "created_at": "2025-04-06T20:27:45Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/20250301_133927_nhxkm8.jpg"
-  },
-  {
-    "id": 4,
-    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192065/20240430_115543_i7yapw.jpg",
-    "title": "Old Man",
-    "description": "Anirudh",
-    "tags": ["person", "old", "man", "portrait"],
-    "created_at": "2025-04-06T20:27:45Z",
-    "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/20240430_115543_i7yapw.jpg"
-  },
-  {
-    "id": 5,
-    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192064/_DSC0908_2_cgkfzz.jpg",
-    "title": "Ghaat",
-    "description": "Anirudh",
-    "tags": ["landscape", "water", "ghaat", "river"],
-    "created_at": "2025-04-06T20:27:44Z",
-    "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/_DSC0908_2_cgkfzz.jpg"
-  },
-  {
-    "id": 6,
-    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192054/_DSC0790_we6p6m.jpg",
-    "title": "Pandit 2",
-    "description": "Anirudh",
-    "tags": ["person", "portrait", "religious", "man"],
-    "created_at": "2025-04-06T20:27:34Z",
-    "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/_DSC0790_we6p6m.jpg"
-  },
-  {
-    "id": 7,
-    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192043/_DSC0782_raduk6.jpg",
-    "title": "Pandits",
-    "description": "Anirudh",
-    "tags": ["person", "group", "religious", "men"],
-    "created_at": "2025-04-06T20:27:23Z",
-    "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/_DSC0782_raduk6.jpg"
-  },
-  {
-    "id": 8,
-    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192041/20240429_231106_s8s9jy.jpg",
-    "title": "Kriya Kand",
-    "description": "Anirudh",
-    "tags": ["religious", "ceremony", "ritual"],
-    "created_at": "2025-04-06T20:27:21Z",
-    "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/20240429_231106_s8s9jy.jpg"
-  },
-  {
-    "id": 9,
-    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192037/20231027_154902_nd5vwk.jpg",
-    "title": "Building Circular Opening",
-    "description": "Anirudh",
-    "tags": ["architecture", "building", "circular"],
-    "created_at": "2025-04-06T20:27:17Z",
-    "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/20231027_154902_nd5vwk.jpg"
-  },
-  {
-    "id": 10,
-    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192035/20230715_162454_uaqaca.jpg",
-    "title": "Gate 1",
-    "description": "Anirudh",
-    "tags": ["architecture", "gate", "building"],
-    "created_at": "2025-04-06T20:27:15Z",
-    "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/20230715_162454_uaqaca.jpg"
-  },
-  {
-    "id": 11,
-    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192035/20231027_163116_poak9k.jpg",
-    "title": "Windows",
-    "description": "Anirudh",
-    "tags": ["architecture", "windows", "building"],
-    "created_at": "2025-04-06T20:27:15Z",
-    "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/20231027_163116_poak9k.jpg"
-  },
-  {
-    "id": 12,
-    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192035/20230921_180042_lo1dux.jpg",
-    "title": "Umbrella Man",
-    "description": "Anirudh",
-    "tags": ["person", "silhouette", "umbrella"],
-    "created_at": "2025-04-06T20:27:15Z",
-    "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/20230921_180042_lo1dux.jpg"
-  },
-  {
-    "id": 13,
-    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192031/IMG_20230228_173846_zn0tpx.jpg",
-    "title": "Kota Barrage",
-    "description": "Anirudh",
-    "tags": ["city", "kota", "barrage", "water"],
-    "created_at": "2025-04-06T20:27:11Z",
-    "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_20230228_173846_zn0tpx.jpg"
-  },
-  {
-    "id": 14,
-    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192030/_DSC0046_aytfte.jpg",
-    "title": "Omni",
-    "description": "Anirudh",
-    "tags": ["vehicle", "car", "omni"],
-    "created_at": "2025-04-06T20:27:10Z",
-    "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/_DSC0046_aytfte.jpg"
-  },
-  {
-    "id": 15,
-    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192028/_DSC0035_1_e8aedc.jpg",
-    "title": "Silhoutte",
-    "description": "Anirudh",
-    "tags": ["silhouette", "person", "sunset", "sky"],
-    "created_at": "2025-04-06T20:27:08Z",
-    "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/_DSC0035_1_e8aedc.jpg"
-  },
-  {
-    "id": 16,
-    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192022/IMG_20221229_204940_eqtd28.jpg",
-    "title": "Concert",
-    "description": "Anirudh",
-    "tags": ["event", "concert", "crowd", "music"],
-    "created_at": "2025-04-06T20:27:02Z",
-    "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_20221229_204940_eqtd28.jpg"
-  },
-  {
-    "id": 17,
-    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192021/IMG_20221228_214630_vxyjqi.jpg",
-    "title": "Concert 2",
-    "description": "Anirudh",
-    "tags": ["event", "concert", "stage", "lights"],
-    "created_at": "2025-04-06T20:27:01Z",
-    "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_20221228_214630_vxyjqi.jpg"
-  },
-  {
-    "id": 18,
-    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192014/_DSC0652_u1virc.jpg",
-    "title": "Dusshera",
-    "description": "Anirudh",
-    "tags": ["festival", "dusshera", "lights", "celebration"],
-    "created_at": "2025-04-06T20:26:54Z",
-    "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/_DSC0652_u1virc.jpg"
-  },
-  {
-    "id": 19,
-    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192006/anirudh-ib3d1uX1LLc-unsplash_vvkabj.jpg",
-    "title": "Diwali Sky",
-    "description": "Anirudh",
-    "tags": ["festival", "diwali", "fireworks", "sky"],
-    "created_at": "2025-04-06T20:26:46Z",
-    "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/anirudh-ib3d1uX1LLc-unsplash_vvkabj.jpg"
-  },
-  {
-    "id": 20,
-    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192003/anirudh-lQmyEr5wsog-unsplash_btwizd.jpg",
-    "title": "Man Standing infront of Window",
-    "description": "Anirudh",
-    "tags": ["person", "silhouette", "window", "city"],
-    "created_at": "2025-04-06T20:26:43Z",
-    "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/anirudh-lQmyEr5wsog-unsplash_btwizd.jpg"
-  },
-  {
-    "id": 21,
-    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192003/anirudh-6MHOgxQK41Q-unsplash_w3secn.jpg",
-    "title": "Motion Blurred Face",
-    "description": "Anirudh",
-    "tags": ["person", "motion", "blur", "abstract"],
-    "created_at": "2025-04-06T20:26:43Z",
-    "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/anirudh-6MHOgxQK41Q-unsplash_w3secn.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/20250301_133927_nhxkm8.jpg",
+    "story": "In the constant motion of the world, a fragile moment of stillness. The journey continues, but the soul has found its temporary port. It is a state of being in motion while the mind is at rest."
   },
   {
     "id": 22,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744191575/DSC04006_fcjje8.jpg",
-    "title": "Light Pole",
+    "title": "The Street's Companion",
     "description": "Shreshth",
-    "tags": ["street", "light", "pole", "urban"],
+    "tags": ["urban", "guidance", "solitude", "structure"],
     "created_at": "2025-04-06T20:19:35Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/DSC04006_fcjje8.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/DSC04006_fcjje8.jpg",
+    "story": "Against a monochrome world, a single spire of light stands as a silent sentinel. It waits patiently for dusk, when it will fulfill its purpose, guiding travelers through the coming night."
+  },
+  {
+    "id": 4,
+    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192065/20240430_115543_i7yapw.jpg",
+    "title": "The Weight of Time",
+    "description": "Anirudh",
+    "tags": ["humanity", "wisdom", "history", "portrait", "age"],
+    "created_at": "2025-04-06T20:27:45Z",
+    "updated_at": "2025-08-18T23:05:20Z",
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/20240430_115543_i7yapw.jpg",
+    "story": "His face, a canvas of wrinkles, holds the story of a lifetime. Each line etched by joy and sorrow, a testament to the passage of time. He is a living archive, carrying the memory of a generation."
   },
   {
     "id": 23,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744191573/PXL_20230704_141413802_ffjw6w.jpg",
-    "title": "2 Ways",
+    "title": "The Path of Choice",
     "description": "Shreshth",
-    "tags": ["road", "path", "street", "choices"],
+    "tags": ["road", "decision", "journey", "direction"],
     "created_at": "2025-04-06T20:19:33Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/PXL_20230704_141413802_ffjw6w.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/PXL_20230704_141413802_ffjw6w.jpg",
+    "story": "A single path becomes two, forcing a decision. This is not just a fork in the road, but a metaphor for life itself, where every step taken leads away from an alternative future."
+  },
+  {
+    "id": 5,
+    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192064/_DSC0908_2_cgkfzz.jpg",
+    "title": "Whispers of the River",
+    "description": "Anirudh",
+    "tags": ["nature", "flow", "reflection", "sacred", "stillness"],
+    "created_at": "2025-04-06T20:27:44Z",
+    "updated_at": "2025-08-18T23:05:20Z",
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/_DSC0908_2_cgkfzz.jpg",
+    "story": "The river's edge, a sacred landing where earth meets water. Steps carved by time descend into the flowing current, a path worn by prayers. The water reflects the heavens, a mirror of eternity."
   },
   {
     "id": 24,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744191571/yeellow_pot_chjf5x.jpg",
-    "title": "Fort",
+    "title": "Echoes of the Citadel",
     "description": "Shreshth",
-    "tags": ["fort", "historical", "architecture", "building"],
+    "tags": ["historical", "endurance", "structure", "monument"],
     "created_at": "2025-04-06T20:19:31Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/yeellow_pot_chjf5x.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/yeellow_pot_chjf5x.jpg",
+    "story": "An ancient fortress stands in defiance of time, its powerful walls a testament to endurance. It is a monument to forgotten days, a silent guardian that watches over the land, holding its secrets within its stone."
+  },
+  {
+    "id": 6,
+    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192054/_DSC0790_we6p6m.jpg",
+    "title": "Offering to the Sun",
+    "description": "Anirudh",
+    "tags": ["devotion", "light", "ritual", "spirituality"],
+    "created_at": "2025-04-06T20:27:34Z",
+    "updated_at": "2025-08-18T23:05:20Z",
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/_DSC0790_we6p6m.jpg",
+    "story": "With hands raised in a gesture of reverence, a man offers his devotion to the cosmos. His form is a silhouette against the coming day, a timeless figure engaged in an act of faith that transcends all language."
   },
   {
     "id": 25,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744191568/kingfisher_4_q7uhcf.jpg",
-    "title": "KingFisher",
+    "title": "The Sapphire Flash",
     "description": "Shreshth",
-    "tags": ["animal", "bird", "kingfisher", "nature"],
+    "tags": ["nature", "beauty", "motion", "color"],
     "created_at": "2025-04-06T20:19:28Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/kingfisher_4_q7uhcf.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/kingfisher_4_q7uhcf.jpg",
+    "story": "A flash of brilliant color against the muted natural world. This is a fleeting moment of perfection, a burst of energy and beauty that reminds us of the hidden life that exists just beyond our sight."
+  },
+  {
+    "id": 7,
+    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192043/_DSC0782_raduk6.jpg",
+    "title": "Guardians of the Flame",
+    "description": "Anirudh",
+    "tags": ["community", "unity", "ritual", "connection"],
+    "created_at": "2025-04-06T20:27:23Z",
+    "updated_at": "2025-08-18T23:05:20Z",
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/_DSC0782_raduk6.jpg",
+    "story": "They gather together, a brotherhood united by a shared purpose. Their collective presence creates a powerful energy, a sacred circle of light that represents the enduring strength of belief and shared history."
   },
   {
     "id": 26,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744191566/unkil_cigrete_oyhpcs.jpg",
-    "title": "Cigarette",
+    "title": "A Moment's Respite",
     "description": "Shreshth",
-    "tags": ["person", "cigarette", "smoking"],
+    "tags": ["solitude", "contemplation", "personal"],
     "created_at": "2025-04-06T20:19:26Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/unkil_cigrete_oyhpcs.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/unkil_cigrete_oyhpcs.jpg",
+    "story": "In a world of constant motion, a man finds a moment of stillness. The rising smoke is a physical manifestation of his thoughts, a fleeting cloud of reflection and relief. It's a quiet pause in a busy life."
+  },
+  {
+    "id": 8,
+    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192041/20240429_231106_s8s9jy.jpg",
+    "title": "The Echo of Ritual",
+    "description": "Anirudh",
+    "tags": ["ritual", "devotion", "light", "community"],
+    "created_at": "2025-04-06T20:27:21Z",
+    "updated_at": "2025-08-18T23:05:20Z",
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/20240429_231106_s8s9jy.jpg",
+    "story": "Flames dance and smoke curls, carrying silent prayers into the night. This is a ceremony of deep significance, a moment where the material gives way to the spiritual. The light illuminates a shared journey of faith."
   },
   {
     "id": 27,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744191566/phoned_uncle_nqc91b.jpg",
-    "title": "Phoned Uncle",
+    "title": "A Distant Voice",
     "description": "Shreshth",
-    "tags": ["person", "phone", "man"],
+    "tags": ["connection", "distance", "communication"],
     "created_at": "2025-04-06T20:19:26Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/phoned_uncle_nqc91b.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/phoned_uncle_nqc91b.jpg",
+    "story": "A man holds a phone to his ear, his face intent on a conversation taking place far away. He is connected by a thin line of technology, bridging the gap between two worlds and bringing a distant voice to his side."
+  },
+  {
+    "id": 9,
+    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192037/20231027_154902_nd5vwk.jpg",
+    "title": "Portal to the Sky",
+    "description": "Anirudh",
+    "tags": ["architecture", "perspective", "heavenly", "framing"],
+    "created_at": "2025-04-06T20:27:17Z",
+    "updated_at": "2025-08-18T23:05:20Z",
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/20231027_154902_nd5vwk.jpg",
+    "story": "An architectural opening frames a perfect view of the heavens. It is a moment of inspired design, a purposeful gap in the mundane world that allows us to look up and reconnect with the vastness of the universe."
   },
   {
     "id": 28,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744191565/IMG-20211215-WA0002jpg.0_fovhk6.jpg",
-    "title": "Textured Shadow",
+    "title": "Shadows of a Pattern",
     "description": "Shreshth",
-    "tags": ["shadow", "texture", "abstract"],
+    "tags": ["abstract", "light", "texture", "contrast"],
     "created_at": "2025-04-06T20:19:25Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG-20211215-WA0002jpg.0_fovhk6.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG-20211215-WA0002jpg.0_fovhk6.jpg",
+    "story": "Sunlight spills across a surface, revealing an intricate dance of light and shadow. This is an abstract moment of natural art, where the sun creates a fleeting pattern that highlights the texture of the world around us."
+  },
+  {
+    "id": 10,
+    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192035/20230715_162454_uaqaca.jpg",
+    "title": "Gateway to the Past",
+    "description": "Anirudh",
+    "tags": ["history", "passage", "time", "architecture"],
+    "created_at": "2025-04-06T20:27:15Z",
+    "updated_at": "2025-08-18T23:05:20Z",
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/20230715_162454_uaqaca.jpg",
+    "story": "This gateway, weathered by time, stands as a silent sentinel. Its design hints at the history it has witnessed, a portal to an earlier time where every stone holds a story."
   },
   {
     "id": 29,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744191563/kulfiwala_sirgoi.jpg",
-    "title": "Shahi Lassi",
+    "title": "A Sweet Delight",
     "description": "Shreshth",
-    "tags": ["food", "drink", "street food", "lassi"],
+    "tags": ["food", "pleasure", "comfort"],
     "created_at": "2025-04-06T20:19:23Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/kulfiwala_sirgoi.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/kulfiwala_sirgoi.jpg",
+    "story": "In a world of complex flavors, a simple pleasure offers a moment of pure contentment. This is not just a drink, but a sweet and refreshing pause in a hot day, a small moment of joy."
+  },
+  {
+    "id": 11,
+    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192035/20231027_163116_poak9k.jpg",
+    "title": "Eyes of the Building",
+    "description": "Anirudh",
+    "tags": ["architecture", "pattern", "urban", "repetition"],
+    "created_at": "2025-04-06T20:27:15Z",
+    "updated_at": "2025-08-18T23:05:20Z",
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/20231027_163116_poak9k.jpg",
+    "story": "A row of windows, each one an eye, looks out onto the street. They are a repetitive pattern, yet each one frames a unique view, a different story within."
   },
   {
     "id": 30,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744191563/myslef_mini_2_v7qq5e.jpg",
-    "title": "Yellow Wall",
+    "title": "The Sun-Kissed Wall",
     "description": "Shreshth",
-    "tags": ["architecture", "wall", "yellow", "abstract"],
+    "tags": ["color", "texture", "abstract", "simplicity"],
     "created_at": "2025-04-06T20:19:23Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/myslef_mini_2_v7qq5e.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/myslef_mini_2_v7qq5e.jpg",
+    "story": "A wall of vibrant yellow, a color that seems to have absorbed the sun's warmth. It is a canvas of joy and optimism, a simple backdrop to a world of endless possibilities."
+  },
+  {
+    "id": 12,
+    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192035/20230921_180042_lo1dux.jpg",
+    "title": "A Solitary Shelter",
+    "description": "Anirudh",
+    "tags": ["solitude", "protection", "humanity", "journey"],
+    "created_at": "2025-04-06T20:27:15Z",
+    "updated_at": "2025-08-18T23:05:20Z",
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/20230921_180042_lo1dux.jpg",
+    "story": "A single figure holds an umbrella, their form a dark shape against the light. The umbrella is a small, personal sanctuary against the elements, a symbol of finding shelter in a world that is often overwhelming."
   },
   {
     "id": 31,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744191563/002563_3_tuwozp.jpg",
-    "title": "Ladki",
+    "title": "The Gaze",
     "description": "Shreshth",
-    "tags": ["person", "woman", "portrait"],
+    "tags": ["humanity", "expression", "emotion", "portrait"],
     "created_at": "2025-04-06T20:19:23Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/002563_3_tuwozp.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/002563_3_tuwozp.jpg",
+    "story": "A woman looks out, her eyes a window into a universe of thoughts and feelings. Her expression holds a mix of innocence and self-awareness, inviting a quiet moment of connection with the viewer."
+  },
+  {
+    "id": 13,
+    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192031/IMG_20230228_173846_zn0tpx.jpg",
+    "title": "The City's Breath",
+    "description": "Anirudh",
+    "tags": ["urban", "flow", "water", "man-made"],
+    "created_at": "2025-04-06T20:27:11Z",
+    "updated_at": "2025-08-18T23:05:20Z",
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_20230228_173846_zn0tpx.jpg",
+    "story": "A concrete structure holds back a vast expanse of water, a heart that regulates the city's flow. It is a symbol of control and release, a powerful structure that tames nature for human purpose."
   },
   {
     "id": 32,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744190349/horseman_2_s3fbhd.jpg",
-    "title": "Horseman",
+    "title": "The Silent Rider",
     "description": "Shreshth",
-    "tags": ["animal", "horse", "person", "horseman"],
+    "tags": ["humanity", "nature", "solitude", "journey"],
     "created_at": "2025-04-06T20:09:09Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/horseman_2_s3fbhd.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/horseman_2_s3fbhd.jpg",
+    "story": "A solitary figure on horseback, moving as one with their companion across a sun-drenched landscape. It is a timeless image of co-existence, a journey of shared purpose through a world of dust and light."
+  },
+  {
+    "id": 14,
+    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192030/_DSC0046_aytfte.jpg",
+    "title": "The Memory Keeper",
+    "description": "Anirudh",
+    "tags": ["vehicle", "history", "nostalgia", "journey"],
+    "created_at": "2025-04-06T20:27:10Z",
+    "updated_at": "2025-08-18T23:05:20Z",
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/_DSC0046_aytfte.jpg",
+    "story": "This vehicle is more than just a car; it's a memory keeper. It has carried countless stories from one place to another, a silent witness to a million fleeting moments. Its presence evokes a sense of nostalgia and shared experience."
   },
   {
     "id": 33,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744190303/rotten_pant_2_kqdfbc.jpg",
-    "title": "Barbed Pants",
+    "title": "A Grasping World",
     "description": "Shreshth",
-    "tags": ["clothing", "pants", "barbed wire", "abstract"],
+    "tags": ["abstract", "struggle", "entrapment", "metaphor"],
     "created_at": "2025-04-06T20:08:23Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/rotten_pant_2_kqdfbc.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/rotten_pant_2_kqdfbc.jpg",
+    "story": "The image captures a strange and unsettling juxtaposition—a piece of clothing entangled with barbed wire. It is a powerful abstract metaphor for the unseen struggles and challenges that can entrap us in the world."
+  },
+  {
+    "id": 15,
+    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192028/_DSC0035_1_e8aedc.jpg",
+    "title": "The Edge of Day",
+    "description": "Anirudh",
+    "tags": ["silhouette", "horizon", "transition", "nature"],
+    "created_at": "2025-04-06T20:27:08Z",
+    "updated_at": "2025-08-18T23:05:20Z",
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/_DSC0035_1_e8aedc.jpg",
+    "story": "Against the fiery backdrop of the setting sun, a person stands on the horizon. Their form is a bold, dark silhouette, representing the individual against the immense power of nature and the beauty of transition."
   },
   {
     "id": 34,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744190302/dukhiyara_raw_vb8awq.jpg",
-    "title": "Dukhiyara",
+    "title": "The Burden of a Thousand Sins",
     "description": "Shreshth",
-    "tags": ["person", "portrait", "sad", "man"],
+    "tags": ["emotion", "grief", "struggle", "humanity"],
     "created_at": "2025-04-06T20:08:22Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/dukhiyara_raw_vb8awq.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/dukhiyara_raw_vb8awq.jpg",
+    "story": "His face is a landscape etched with a profound sadness. It is a portrait of quiet suffering, a silent plea that speaks to the unseen burdens that many carry, and the strength it takes to simply exist with them."
+  },
+  {
+    "id": 16,
+    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192022/IMG_20221229_204940_eqtd28.jpg",
+    "title": "A Symphony of Light and Sound",
+    "description": "Anirudh",
+    "tags": ["community", "energy", "unity", "celebration"],
+    "created_at": "2025-04-06T20:27:02Z",
+    "updated_at": "2025-08-18T23:05:20Z",
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_20221229_204940_eqtd28.jpg",
+    "story": "The crowd is a sea of faces, all turned towards a single point of light and sound. The air is filled with a collective energy, a shared experience that transcends individual identity in a moment of communal joy."
   },
   {
     "id": 35,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744190302/cinmeatic_me_xu4zom.jpg",
-    "title": "Cinematic Shreshth",
+    "title": "The Hero's Stance",
     "description": "Shreshth",
-    "tags": ["portrait", "person", "cinematic", "film"],
+    "tags": ["empowerment", "confidence", "self"],
     "created_at": "2025-04-06T20:08:22Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/cinmeatic_me_xu4zom.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/cinmeatic_me_xu4zom.jpg",
+    "story": "Framed by the world's lens, a person stands with the quiet confidence of a protagonist. Their gaze is direct, their posture composed. This is a moment where they own their narrative, a single still from their personal film."
+  },
+  {
+    "id": 17,
+    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192021/IMG_20221228_214630_vxyjqi.jpg",
+    "title": "The Stage Aflame",
+    "description": "Anirudh",
+    "tags": ["performance", "energy", "spectacle", "night"],
+    "created_at": "2025-04-06T20:27:01Z",
+    "updated_at": "2025-08-18T23:05:20Z",
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_20221228_214630_vxyjqi.jpg",
+    "story": "Bright lights cut through the darkness, illuminating a stage where a powerful performance unfolds. The intense glow and energy hold the audience captive in a shared, transcendent experience."
   },
   {
     "id": 36,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744190300/city_screen_npu4iz.jpg",
-    "title": "City Screen",
+    "title": "The Urban Canvas",
     "description": "Shreshth",
-    "tags": ["city", "screen", "technology", "urban"],
+    "tags": ["technology", "urban", "modernity", "contrast"],
     "created_at": "2025-04-06T20:08:20Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/city_screen_npu4iz.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/city_screen_npu4iz.jpg",
+    "story": "A modern screen dominates the cityscape, its vibrant pixels a jarring contrast to the aged stone around it. This is the new canvas of the urban world, a place where messages and dreams are projected into the night."
+  },
+  {
+    "id": 18,
+    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192014/_DSC0652_u1virc.jpg",
+    "title": "A Festival of Lights",
+    "description": "Anirudh",
+    "tags": ["celebration", "joy", "light", "community"],
+    "created_at": "2025-04-06T20:26:54Z",
+    "updated_at": "2025-08-18T23:05:20Z",
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/_DSC0652_u1virc.jpg",
+    "story": "The air crackles with excitement as lights and colors fill the night. The brilliant glow is a symbol of hope and renewal, a shared moment of celebration that transcends all differences and brings people together."
   },
   {
     "id": 37,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744190299/armii_hhvwd2.jpg",
-    "title": "Army",
+    "title": "A Wall of Brothers",
     "description": "Shreshth",
-    "tags": ["person", "group", "army", "soldiers"],
+    "tags": ["unity", "discipline", "strength", "community"],
     "created_at": "2025-04-06T20:08:19Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/armii_hhvwd2.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/armii_hhvwd2.jpg",
+    "story": "A group of figures stands together, a single unit of strength and purpose. Their shared discipline and focus are a testament to their unity, a wall of brothers united for a common cause."
+  },
+  {
+    "id": 19,
+    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192006/anirudh-ib3d1uX1LLc-unsplash_vvkabj.jpg",
+    "title": "The Painted Sky",
+    "description": "Anirudh",
+    "tags": ["celebration", "joy", "nature", "color"],
+    "created_at": "2025-04-06T20:26:46Z",
+    "updated_at": "2025-08-18T23:05:20Z",
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/anirudh-ib3d1uX1LLc-unsplash_vvkabj.jpg",
+    "story": "Fleeting bursts of light paint the night sky with brilliant, temporary colors. This is a moment of pure, explosive joy, where the human-made spectacle merges with the vast canvas of the universe."
   },
   {
     "id": 38,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744190298/nuezpaper_pqytqm.jpg",
-    "title": "Newspaper",
+    "title": "The Printed Word",
     "description": "Shreshth",
-    "tags": ["object", "newspaper", "news", "text"],
+    "tags": ["information", "history", "communication"],
     "created_at": "2025-04-06T20:08:18Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/nuezpaper_pqytqm.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/nuezpaper_pqytqm.jpg",
+    "story": "A newspaper lies open, its pages filled with the stories of the world. It is a tangible record of a single day, a fleeting moment of information that connects countless lives."
+  },
+  {
+    "id": 20,
+    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192003/anirudh-lQmyEr5wsog-unsplash_btwizd.jpg",
+    "title": "The Urban Gaze",
+    "description": "Anirudh",
+    "tags": ["solitude", "observation", "cityscape", "humanity"],
+    "created_at": "2025-04-06T20:26:43Z",
+    "updated_at": "2025-08-18T23:05:20Z",
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/anirudh-lQmyEr5wsog-unsplash_btwizd.jpg",
+    "story": "From a high window, a person looks out at the sprawling metropolis below. They are a solitary observer, an island within the urban sea. It is a private moment in a public world, a silent reflection on the human condition."
   },
   {
     "id": 39,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744190298/DSCN0512_1_jai3vs.jpg",
-    "title": "Skyline",
+    "title": "The City's Crown",
     "description": "Shreshth",
-    "tags": ["city", "skyline", "urban", "architecture"],
+    "tags": ["urban", "progress", "ambition", "architecture"],
     "created_at": "2025-04-06T20:08:18Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/DSCN0512_1_jai3vs.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/DSCN0512_1_jai3vs.jpg",
+    "story": "A collection of towers rises from the earth, a jagged crown of concrete and steel against the sky. It is a symbol of progress and human ambition, a testament to our desire to reach for the heavens."
+  },
+  {
+    "id": 21,
+    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744192003/anirudh-6MHOgxQK41Q-unsplash_w3secn.jpg",
+    "title": "A Fragment of a Moment",
+    "description": "Anirudh",
+    "tags": ["abstract", "motion", "memory", "emotion"],
+    "created_at": "2025-04-06T20:26:43Z",
+    "updated_at": "2025-08-18T23:05:20Z",
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/anirudh-6MHOgxQK41Q-unsplash_w3secn.jpg",
+    "story": "A face in motion, a blur of color and form. This is not a literal portrait, but a feeling captured in a single frame. It is the fleeting moment of a memory, an emotion obscured by speed and time."
   },
   {
     "id": 40,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744190298/htrough_vfebf3.jpg",
-    "title": "Coloured Glass",
+    "title": "Shattered Light",
     "description": "Shreshth",
-    "tags": ["abstract", "glass", "color", "texture"],
+    "tags": ["abstract", "color", "perspective", "fracture"],
     "created_at": "2025-04-06T20:08:18Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/htrough_vfebf3.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/htrough_vfebf3.jpg",
+    "story": "Light passes through a piece of colored glass, breaking and scattering into a tapestry of hues. The imperfections create a unique pattern, a beautiful abstract that reminds us that even in brokenness, there is a profound beauty to be found."
   },
   {
     "id": 41,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744190297/architecture_o2y1et.jpg",
-    "title": "Kissing Houses",
+    "title": "The Embrace of the Urban",
     "description": "Shreshth",
-    "tags": ["architecture", "houses", "urban"],
+    "tags": ["architecture", "proximity", "connection", "urban"],
     "created_at": "2025-04-06T20:08:17Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/architecture_o2y1et.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/architecture_o2y1et.jpg",
+    "story": "Two structures stand close together, their forms seemingly touching in a tight urban embrace. It is a sweet, almost human moment of proximity in a dense cityscape, a silent acknowledgment of shared space."
   },
   {
     "id": 42,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744190296/gulmandi_2_kiib6n.jpg",
-    "title": "Odd One Out",
+    "title": "The Unseen Face",
     "description": "Shreshth",
-    "tags": ["person", "crowd", "unique"],
+    "tags": ["crowd", "solitude", "anonymous", "perspective"],
     "created_at": "2025-04-06T20:08:16Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/gulmandi_2_kiib6n.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/gulmandi_2_kiib6n.jpg",
+    "story": "In a sea of people, one figure is turned away, their back to the viewer. This is the unseen face, the anonymous story in a crowd of public lives. It speaks to the private world we all carry within us."
   },
   {
     "id": 43,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744190293/aeroplane_2_oocq1t.jpg",
-    "title": "Will Get There One Day",
+    "title": "A Promise in the Sky",
     "description": "Shreshth",
-    "tags": ["plane", "sky", "travel"],
+    "tags": ["travel", "dream", "ambition", "hope"],
     "created_at": "2025-04-06T20:08:13Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/aeroplane_2_oocq1t.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/aeroplane_2_oocq1t.jpg",
+    "story": "A lone plane streaks across the vast, open sky, a tiny speck of ambition and possibility. It is a fleeting promise of distant lands and new beginnings, a reminder that every grand journey starts with a single act of departure."
   },
   {
     "id": 44,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744190290/greece_b2_rcbsxm.jpg",
-    "title": "Waiting",
+    "title": "The Quiet Vigil",
     "description": "Shreshth",
-    "tags": ["person", "waiting", "station", "train"],
+    "tags": ["patience", "transition", "waiting", "journey"],
     "created_at": "2025-04-06T20:08:10Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/greece_b2_rcbsxm.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/greece_b2_rcbsxm.jpg",
+    "story": "A person waits patiently, their form a study in stillness. They are caught in a moment of pause, a quiet vigil before the next part of their journey begins. It is the beauty of anticipation."
   },
   {
     "id": 45,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744190290/horse_3_w0ssvs.jpg",
-    "title": "Thirsty",
+    "title": "A Thirst for Life",
     "description": "Shreshth",
-    "tags": ["animal", "horse", "nature", "thirsty"],
+    "tags": ["nature", "survival", "purity", "life"],
     "created_at": "2025-04-06T20:08:10Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/horse_3_w0ssvs.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/horse_3_w0ssvs.jpg",
+    "story": "An animal drinks from a trough, its head bowed in a simple act of necessity. It is a moment of pure, natural grace, a thirst for life being quenched in a world where such moments are fleeting."
   },
   {
     "id": 46,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744190289/PXL_20231012_112033672_xdgsvp.jpg",
-    "title": "Baba",
+    "title": "A Soulful Gaze",
     "description": "Shreshth",
-    "tags": ["person", "religious", "man", "portrait"],
+    "tags": ["wisdom", "humanity", "story", "portrait"],
     "created_at": "2025-04-06T20:08:09Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/PXL_20231012_112033672_xdgsvp.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/PXL_20231012_112033672_xdgsvp.jpg",
+    "story": "A man with a deep, soulful gaze looks directly into the camera. His face, marked by experience, holds a profound wisdom that seems to come from a lifetime of stories. He is a book waiting to be read."
   },
   {
     "id": 47,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744190288/mummy_papa_mba9pc.jpg",
-    "title": "Mummy Papa",
+    "title": "A Lifetime's Love",
     "description": "Shreshth",
-    "tags": ["family", "couple", "parents"],
+    "tags": ["connection", "endurance", "love", "companionship"],
     "created_at": "2025-04-06T20:08:08Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/mummy_papa_mba9pc.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/mummy_papa_mba9pc.jpg",
+    "story": "Two people stand together, a shared look of contentment on their faces. They are a testament to enduring love, a portrait of a lifetime built together through shared experiences and unwavering companionship."
   },
   {
     "id": 48,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744190288/aryan_car_xy480a.jpg",
-    "title": "Car",
+    "title": "Roadside Reverie",
     "description": "Shreshth",
-    "tags": ["vehicle", "car", "travel"],
+    "tags": ["travel", "pause", "journey", "reflection"],
     "created_at": "2025-04-06T20:08:08Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/aryan_car_xy480a.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/aryan_car_xy480a.jpg",
+    "story": "The vehicle sits quietly on the side of the road, a pause in a longer journey. It is a moment of stillness before motion, a space for thought and reflection before the path continues once more."
   },
   {
     "id": 49,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744190285/fuck_jvgvvl.jpg",
-    "title": "Fuck",
+    "title": "Defiance in the Dark",
     "description": "Shreshth",
-    "tags": ["abstract", "text"],
+    "tags": ["abstract", "rebellion", "expression", "protest"],
     "created_at": "2025-04-06T20:08:05Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/fuck_jvgvvl.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/fuck_jvgvvl.jpg",
+    "story": "A single word, stark and rebellious, is a powerful statement in the dark. It is an act of defiance, a small moment of rebellion that speaks to the frustrations we all feel in a world that can be overwhelming."
   },
   {
     "id": 50,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744190280/ayush_ka_bhai_2_lgwynz.jpg",
-    "title": "Face Blurred 2",
+    "title": "A Face in the Haze",
     "description": "Shreshth",
-    "tags": ["person", "portrait", "blurred"],
+    "tags": ["abstract", "identity", "memory", "mystery"],
     "created_at": "2025-04-06T20:08:00Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/ayush_ka_bhai_2_lgwynz.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/ayush_ka_bhai_2_lgwynz.jpg",
+    "story": "A face is obscured by a blur, a fleeting moment of a person's existence captured in an abstract way. It is a ghost in the machine, a memory in a photograph, leaving the viewer to fill in the missing details."
   },
   {
     "id": 51,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744190280/PXL_20230710_134822641_trcugz.jpg",
-    "title": "Kota City",
+    "title": "The City of Stone",
     "description": "Shreshth",
-    "tags": ["city", "kota", "urban", "landscape"],
+    "tags": ["urban", "landscape", "humanity", "complexity"],
     "created_at": "2025-04-06T20:08:00Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/PXL_20230710_134822641_trcugz.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/PXL_20230710_134822641_trcugz.jpg",
+    "story": "The city stretches out below, a collection of buildings and streets that form a tapestry of human life. It is a city of stone and concrete, but filled with a million living stories, each one a thread in a complex and beautiful design."
   },
   {
     "id": 52,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744190279/krishnam_3_smooke_gslm35.jpg",
-    "title": "Smoke Rays",
+    "title": "The Ghostly Sunbeam",
     "description": "Shreshth",
-    "tags": ["abstract", "smoke", "light", "rays"],
+    "tags": ["abstract", "light", "spirituality", "ephemeral"],
     "created_at": "2025-04-06T20:07:59Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/krishnam_3_smooke_gslm35.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/krishnam_3_smooke_gslm35.jpg",
+    "story": "Sunlight filters through a haze, creating otherworldly rays of light. The beams are a physical manifestation of the invisible, a ghostly presence that reminds us of the magic that can be found in the mundane."
   },
   {
     "id": 53,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370845/IMG_6187_rpsbjc.heic",
-    "title": "Power Plant",
+    "title": "The City's Heartbeat",
     "description": "Varun",
-    "tags": ["industrial", "power plant", "city"],
+    "tags": ["urban", "power", "industry", "lifeblood"],
     "created_at": "2025-04-08T22:34:05Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_6187_rpsbjc.heic"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_6187_rpsbjc.heic",
+    "story": "Towers rise into the sky, their stark, industrial forms a testament to human ingenuity. This is the heartbeat that fuels a city's constant motion, a powerful and often overlooked part of our modern world."
   },
   {
     "id": 54,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370846/IMG_5913_mszwib.jpg",
-    "title": "Train",
+    "title": "The Iron Snake",
     "description": "Varun",
-    "tags": ["travel", "train", "railway"],
+    "tags": ["journey", "power", "travel", "connection"],
     "created_at": "2025-04-08T22:34:06Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_5913_mszwib.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_5913_mszwib.jpg",
+    "story": "A long, mechanical form curves through the darkness, its windows a series of luminous squares. It is a powerful force of forward motion, carrying its cargo of human lives and stories towards their next destination."
   },
   {
     "id": 55,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370846/IMG_5175_raadez.heic",
-    "title": "Fest",
+    "title": "The Shared Joy",
     "description": "Varun",
-    "tags": ["event", "festival", "crowd"],
+    "tags": ["community", "celebration", "energy", "unity"],
     "created_at": "2025-04-08T22:34:06Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_5175_raadez.heic"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_5175_raadez.heic",
+    "story": "A sea of people moves together in a moment of shared joy. This is not just a gathering, but a communal celebration where the energy of the crowd becomes a powerful, unifying force."
   },
   {
     "id": 56,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370847/IMG_3210_azpgvh.heic",
-    "title": "Sleeping Puppy",
+    "title": "A Sleeping Promise",
     "description": "Varun",
-    "tags": ["animal", "dog", "puppy", "sleeping"],
+    "tags": ["innocence", "trust", "rest", "nature"],
     "created_at": "2025-04-08T22:34:07Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_3210_azpgvh.heic"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_3210_azpgvh.heic",
+    "story": "A small creature sleeps peacefully, its form curled in a perfect ball of trust. It is a promise of future joy, a tiny life at rest that reminds us of the simple beauty of innocence and peace."
   },
   {
     "id": 57,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370847/Copy_of_IMG_2816_zdhw5v.jpg",
-    "title": "Platform",
+    "title": "The Waiting Place",
     "description": "Varun",
-    "tags": ["travel", "train", "platform", "station"],
+    "tags": ["travel", "transition", "anticipation", "liminal"],
     "created_at": "2025-04-08T22:34:07Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/Copy_of_IMG_2816_zdhw5v.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/Copy_of_IMG_2816_zdhw5v.jpg",
+    "story": "A platform, a stage for a thousand goodbyes and hellos. It is a waiting place, a liminal space where journeys begin and end, filled with the quiet energy of anticipation."
   },
   {
     "id": 58,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370848/IMG_3224_nitcdv.heic",
-    "title": "Puppy Returns",
+    "title": "The Happy Companion",
     "description": "Varun",
-    "tags": ["animal", "dog", "puppy", "portrait"],
+    "tags": ["joy", "connection", "companionship", "purity"],
     "created_at": "2025-04-08T22:34:08Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_3224_nitcdv.heic"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_3224_nitcdv.heic",
+    "story": "A small creature looks at the world with infectious joy and a playful spirit. It is a simple portrait of happiness, a reminder that the purest connections can be found in the companionship of another."
   },
   {
     "id": 59,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370848/IMG_2766_koe4go.heic",
-    "title": "Catuisance",
+    "title": "The Curious Intruder",
     "description": "Varun",
-    "tags": ["animal", "cat", "annoying"],
+    "tags": ["curiosity", "mischief", "grace"],
     "created_at": "2025-04-08T22:34:08Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_2766_koe4go.heic"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_2766_koe4go.heic",
+    "story": "A cat's face peers into the frame, a look of playful curiosity that challenges the moment's peace. It is a mischievous and charming intruder, a reminder of the quiet, graceful lives that share our world."
   },
   {
     "id": 60,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370849/FullSizeRender_qkim3n.heic",
-    "title": "Pussy Prem",
+    "title": "A Portrait of Grace",
     "description": "Varun",
-    "tags": ["animal", "cat", "portrait"],
+    "tags": ["grace", "poise", "dignity"],
     "created_at": "2025-04-08T22:34:09Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/FullSizeRender_qkim3n.heic"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/FullSizeRender_qkim3n.heic",
+    "story": "A creature sits with a regal dignity, its eyes reflecting an inner calm. It is a portrait of quiet poise, a moment of simple beauty that reminds us of the effortless elegance found in nature."
   },
   {
     "id": 61,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370849/IMG_8421_ldzyfk.heic",
-    "title": "Bhari Varsha",
+    "title": "A Torrent of Life",
     "description": "Varun",
-    "tags": ["weather", "rain", "street", "city"],
+    "tags": ["weather", "renewal", "energy", "urban"],
     "created_at": "2025-04-08T22:34:09Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_8421_ldzyfk.heic"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_8421_ldzyfk.heic",
+    "story": "The streets are slick with rain, the world transformed by a sudden downpour. It is a torrent of life, washing away the dust and bringing a fresh, new energy to the city."
   },
   {
     "id": 62,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370855/IMG_5413_wq6g5v.heic",
-    "title": "Evening Flight",
+    "title": "The Journey Home",
     "description": "Varun",
-    "tags": ["travel", "flight", "plane", "sky"],
+    "tags": ["travel", "destination", "flight", "hope"],
     "created_at": "2025-04-08T22:34:15Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_5413_wq6g5v.heic"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_5413_wq6g5v.heic",
+    "story": "A plane soars through the evening sky, a long line of flight against the setting sun. It is more than just a trip; it is a journey towards a destination, a powerful symbol of homecoming."
   },
   {
     "id": 63,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370856/IMG_2594_jpg_nubepw.jpg",
-    "title": "Tower",
+    "title": "A Spire of Ambition",
     "description": "Varun",
-    "tags": ["architecture", "tower", "building", "sky"],
+    "tags": ["urban", "progress", "ambition", "architecture"],
     "created_at": "2025-04-08T22:34:16Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_2594_jpg_nubepw.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_2594_jpg_nubepw.jpg",
+    "story": "A single tower rises into the sky, a spire of ambition that seems to reach for the heavens. It is a symbol of progress and human dreams, a modern monument to the pursuit of greatness."
   },
   {
     "id": 64,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370857/IMG_3550_yspjap.heic",
-    "title": "Wanderer",
+    "title": "The Solitary Path",
     "description": "Varun",
-    "tags": ["person", "travel", "wanderer", "street"],
+    "tags": ["solitude", "journey", "self", "discovery"],
     "created_at": "2025-04-08T22:34:17Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_3550_yspjap.heic"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_3550_yspjap.heic",
+    "story": "A person walks alone down a winding path, their form a small part of a much larger world. This is a solitary journey of self-discovery, a quiet moment of introspection where every step leads to a new understanding."
   },
   {
     "id": 65,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370859/IMG_8693_fbhzvs.heic",
-    "title": "Khet",
+    "title": "Fields of Gold",
     "description": "Varun",
-    "tags": ["nature", "field", "rural", "landscape"],
+    "tags": ["nature", "abundance", "tranquility", "landscape"],
     "created_at": "2025-04-08T22:34:19Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_8693_fbhzvs.heic"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_8693_fbhzvs.heic",
+    "story": "Golden fields stretch out to the horizon, a vast expanse of nature's bounty. It is a scene of quiet beauty and abundance, a landscape that speaks of the land's patience and generosity."
   },
   {
     "id": 66,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370860/IMG_8428_zwyxo8.heic",
-    "title": "Maharana Pratap",
+    "title": "The Bronze King",
     "description": "Varun",
-    "tags": ["statue", "maharana pratap", "history"],
+    "tags": ["history", "legacy", "dignity", "monument"],
     "created_at": "2025-04-08T22:34:20Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_8428_zwyxo8.heic"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_8428_zwyxo8.heic",
+    "story": "A statue of a great king stands in quiet dignity, its bronze form a testament to his legacy. He is a silent guardian, a reminder of a powerful history that continues to shape the present."
   },
   {
     "id": 67,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370862/IMG_8424_lrznct.heic",
-    "title": "Bhari Varsha 2",
+    "title": "A City Washed Clean",
     "description": "Varun",
-    "tags": ["weather", "rain", "street", "city"],
+    "tags": ["weather", "renewal", "clarity", "urban"],
     "created_at": "2025-04-08T22:34:22Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_8424_lrznct.heic"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_8424_lrznct.heic",
+    "story": "The city is drenched in rain, every surface slick and reflective. The downpour washes the streets clean, leaving a fresh and vibrant world behind. It is a moment of renewal and clarity, a simple transformation."
   },
   {
     "id": 68,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370863/IMG_7993_tanqge.heic",
-    "title": "Night Street",
+    "title": "Neon Veins",
     "description": "Varun",
-    "tags": ["city", "street", "night", "lights"],
+    "tags": ["urban", "energy", "night", "motion"],
     "created_at": "2025-04-08T22:34:23Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_7993_tanqge.heic"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_7993_tanqge.heic",
+    "story": "The city at night is a living, breathing entity. Car lights and street lamps become its neon veins, pulsing with energy and movement. The blurred streaks of light are a testament to the city's constant chaos and beauty."
   },
   {
     "id": 69,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370865/IMG_4490_vjrj7x.heic",
-    "title": "More Puppy",
+    "title": "The Happy Pup",
     "description": "Varun",
-    "tags": ["animal", "dog", "puppy", "cute"],
+    "tags": ["joy", "innocence", "connection", "purity"],
     "created_at": "2025-04-08T22:34:25Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_4490_vjrj7x.heic"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_4490_vjrj7x.heic",
+    "story": "A creature looks at the world with infectious joy, its eyes sparkling with a playful spirit. It is a simple portrait of pure happiness, a small burst of joy that reminds us of the power of innocence."
   },
   {
     "id": 70,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370865/IMG_4446_a7ktgf.heic",
-    "title": "Library",
+    "title": "The Hall of Stories",
     "description": "Varun",
-    "tags": ["library", "books", "reading", "study"],
+    "tags": ["knowledge", "imagination", "history", "narrative"],
     "created_at": "2025-04-08T22:34:25Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_4446_a7ktgf.heic"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_4446_a7ktgf.heic",
+    "story": "The shelves of a library stretch into the distance, a vast collection of stories and knowledge. This is a hall of a million dreams, a place where every book holds a universe of its own."
   },
   {
     "id": 71,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370866/IMG_2215_ndv5mt.heic",
-    "title": "Constitution Day",
+    "title": "A Day of Freedom",
     "description": "Varun",
-    "tags": ["celebration", "constitution day", "event"],
+    "tags": ["celebration", "community", "patriotism", "pride"],
     "created_at": "2025-04-08T22:34:26Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_2215_ndv5mt.heic"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_2215_ndv5mt.heic",
+    "story": "A crowd gathers, a shared moment of celebration for a day of national significance. It is a day of freedom and pride, a moment where people come together as one, united in a collective spirit."
   },
   {
     "id": 72,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370865/IMG_3057_cmxoe2.heic",
-    "title": "Constitution Night",
+    "title": "A Monument's Glow",
     "description": "Varun",
-    "tags": ["celebration", "constitution day", "event", "night"],
+    "tags": ["history", "light", "heritage", "reverence"],
     "created_at": "2025-04-08T22:34:25Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_3057_cmxoe2.heic"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_3057_cmxoe2.heic",
+    "story": "A historical monument is transformed by the glow of light, its powerful architecture made soft and ethereal. The illumination emphasizes its grand scale and intricate details, inviting a quiet moment of reverence for its enduring significance."
   },
   {
     "id": 73,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370867/IMG_1829_dhrthf.heic",
-    "title": "Girgit",
+    "title": "The Patient Hunter",
     "description": "Varun",
-    "tags": ["animal", "lizard", "nature"],
+    "tags": ["nature", "patience", "camouflage", "stillness"],
     "created_at": "2025-04-08T22:34:27Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_1829_dhrthf.heic"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_1829_dhrthf.heic",
+    "story": "A chameleon waits on a branch, its eyes watchful and patient. It is a master of stillness and disguise, a creature of quiet grace that reminds us of the delicate balance in nature."
   },
   {
     "id": 74,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370868/IMG_2752_a2vo6c.heic",
-    "title": "More Cats",
+    "title": "The Feline Family",
     "description": "Varun",
-    "tags": ["animal", "cats", "group"],
+    "tags": ["community", "companionship", "purity", "nature"],
     "created_at": "2025-04-08T22:34:28Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_2752_a2vo6c.heic"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_2752_a2vo6c.heic",
+    "story": "A group of animals gathers together, a small family unit in a quiet moment. They are a collection of individual personalities, each one a unique part of a greater whole."
   },
   {
     "id": 75,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370868/IMG_2180_mg3jvg.heic",
-    "title": "Gandakda",
+    "title": "The Gentle Giant",
     "description": "Varun",
-    "tags": ["animal", "rhino", "zoo", "wildlife"],
+    "tags": ["strength", "dignity", "wildlife", "nature"],
     "created_at": "2025-04-08T22:34:28Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_2180_mg3jvg.heic"
-  },
-  {
-    "id": 76,
-    "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370869/IMG_2308_sksnan.heic",
-    "title": "Foooool",
-    "description": "Varun",
-    "tags": ["flower", "nature", "plant", "garden"],
-    "created_at": "2025-04-08T22:34:29Z",
-    "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_2308_sksnan.heic"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_2180_mg3jvg.heic",
+    "story": "A powerful creature stands in quiet dignity, its immense form a testament to its strength. Yet, in its peaceful presence, there is a gentle nature that reminds us of the duality of power and grace."
   },
   {
     "id": 77,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370916/IMG_2745_bqfgll.jpg",
-    "title": "More Billi",
+    "title": "The Quiet Watcher",
     "description": "Venkatesh",
-    "tags": ["animal", "cat", "pet"],
+    "tags": ["contemplation", "mystery", "solitude", "purity"],
     "created_at": "2025-04-08T22:35:16Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_2745_bqfgll.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_2745_bqfgll.jpg",
+    "story": "A creature sits, its eyes wide with a quiet, knowing intelligence. It is a watcher, an observer of a world that it navigates with a silent grace. Its presence is a reminder of the mysterious lives that share our world."
   },
   {
     "id": 78,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370914/IMG-20250313-WA0022_iswofg.jpg",
-    "title": "Hanging Bridge",
+    "title": "The Bridge of Light",
     "description": "Venkatesh",
-    "tags": ["architecture", "bridge", "hanging bridge", "city"],
+    "tags": ["connection", "engineering", "urban", "journey"],
     "created_at": "2025-04-08T22:35:14Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG-20250313-WA0022_iswofg.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG-20250313-WA0022_iswofg.jpg",
+    "story": "A bridge hangs in the night sky, a luminous arc of light connecting two worlds. Its powerful structure is a symbol of our desire to build connections and to travel towards a brighter tomorrow."
   },
   {
     "id": 79,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370911/IMG-20231209-WA0025_c6uukf.jpg",
-    "title": "Tote",
+    "title": "The Canvas of the Carrier",
     "description": "Venkatesh",
-    "tags": ["object", "tote bag", "text"],
+    "tags": ["abstract", "identity", "expression", "object"],
     "created_at": "2025-04-08T22:35:11Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG-20231209-WA0025_c6uukf.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG-20231209-WA0025_c6uukf.jpg",
+    "story": "A simple tote bag, a blank canvas for a message or a brand. It is a carrier of things, but also a carrier of a personal story, a silent piece of a larger identity."
   },
   {
     "id": 80,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370909/IMG-20231119-WA0008_hkbgmw.jpg",
-    "title": "Eggs",
+    "title": "A Promise of Life",
     "description": "Venkatesh",
-    "tags": ["food", "eggs", "breakfast"],
+    "tags": ["life", "potential", "simplicity", "nature"],
     "created_at": "2025-04-08T22:35:09Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG-20231119-WA0008_hkbgmw.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG-20231119-WA0008_hkbgmw.jpg",
+    "story": "A collection of simple forms sits in a carton, their presence a promise of new life. They are a symbol of potential and nourishment, a quiet reminder of the beginning of things."
   },
   {
     "id": 81,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370907/IMG-20240122-WA0075_2_ptjb98.jpg",
-    "title": "Deepak",
+    "title": "A Quiet Man",
     "description": "Venkatesh",
-    "tags": ["person", "man", "portrait"],
+    "tags": ["solitude", "introspection", "humanity", "portrait"],
     "created_at": "2025-04-08T22:35:07Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG-20240122-WA0075_2_ptjb98.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG-20240122-WA0075_2_ptjb98.jpg",
+    "story": "A man looks away from the camera, his profile a study in stillness. He is a quiet man, his thoughts a private world. It is a portrait of introspection, inviting the viewer to consider the inner life of others."
   },
   {
     "id": 82,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744371108/IMG-20250403-WA0017_gjnyaz.jpg",
-    "title": "Thar",
+    "title": "The Untamed Beast",
     "description": "Paras",
-    "tags": ["vehicle", "thar", "car"],
+    "tags": ["adventure", "power", "freedom", "machine"],
     "created_at": "2025-04-08T22:38:28Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG-20250403-WA0017_gjnyaz.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG-20250403-WA0017_gjnyaz.jpg",
+    "story": "This machine is a symbol of power and adventure. It sits ready, built for the untamed world, a beast ready to roam and carry its passengers on a journey of discovery."
   },
   {
     "id": 83,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744371108/IMG-20250403-WA0006_fcinti.jpg",
-    "title": "Purana Ghar",
+    "title": "A House of Memories",
     "description": "Paras",
-    "tags": ["architecture", "house", "old", "vintage"],
+    "tags": ["history", "nostalgia", "time", "heritage"],
     "created_at": "2025-04-08T22:38:28Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG-20250403-WA0006_fcinti.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG-20250403-WA0006_fcinti.jpg",
+    "story": "An old house stands, its weathered facade a testament to a long life. It is more than a structure; it is a repository of memories, holding a lifetime of stories within its silent walls."
   },
   {
     "id": 84,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744371104/IMG-20250403-WA0010_mrfxte.jpg",
-    "title": "KST",
+    "title": "The Modern Tower",
     "description": "Paras",
-    "tags": ["architecture", "building"],
+    "tags": ["urban", "progress", "architecture", "future"],
     "created_at": "2025-04-08T22:38:24Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG-20250403-WA0010_mrfxte.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG-20250403-WA0010_mrfxte.jpg",
+    "story": "A modern building, with sharp lines and a sleek design, reaches for the sky. It is a symbol of the new, a bold statement in a city that is constantly changing and moving towards the future."
   },
   {
     "id": 85,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744371100/IMG_20241230_075538_my9zqk.jpg",
-    "title": "Scattering",
+    "title": "The Falling Star",
     "description": "Paras",
-    "tags": ["abstract", "lights", "blur"],
+    "tags": ["abstract", "light", "motion", "ephemeral"],
     "created_at": "2025-04-08T22:38:20Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_20241230_075538_my9zqk.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_20241230_075538_my9zqk.jpg",
+    "story": "A burst of light and motion, a scattering of a million fleeting moments. It is an image not of a thing, but of a feeling: the energetic chaos of urban life, a burst of light in the darkness."
   },
   {
     "id": 86,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744371097/IMG_20241231_171740_kj3rsy.jpg",
-    "title": "A Gift",
+    "title": "A Promise of Joy",
     "description": "Paras",
-    "tags": ["object", "gift", "box"],
+    "tags": ["anticipation", "joy", "mystery", "generosity"],
     "created_at": "2025-04-08T22:38:17Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_20241231_171740_kj3rsy.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_20241231_171740_kj3rsy.jpg",
+    "story": "A wrapped gift, its contents unknown, holds a promise of joy and surprise. It is a symbol of a personal connection and a moment of kindness, a tangible representation of a future happiness."
   },
   {
     "id": 87,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744371095/IMG_E0021_kizmvt.jpg",
-    "title": "A Day Out",
+    "title": "The Shared Laugh",
     "description": "Paras",
-    "tags": ["person", "friends", "day out"],
+    "tags": ["connection", "joy", "friendship", "community"],
     "created_at": "2025-04-08T22:38:15Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_E0021_kizmvt.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_E0021_kizmvt.jpg",
+    "story": "A group of friends sits together, sharing a moment of genuine laughter and connection. It is a simple image of joy, a powerful reminder of the bonds we share and the comfort we find in one another."
   },
   {
     "id": 88,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744371094/IMG_20250101_173353_bt0rd3.jpg",
-    "title": "Temple",
+    "title": "The Sacred Spire",
     "description": "Paras",
-    "tags": ["architecture", "temple", "religious"],
+    "tags": ["spirituality", "faith", "heritage", "sanctuary"],
     "created_at": "2025-04-08T22:38:14Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_20250101_173353_bt0rd3.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_20250101_173353_bt0rd3.jpg",
+    "story": "A sacred structure stands in quiet reverence, its spires reaching for the heavens. It is a spiritual beacon in the world, a place of peace and reflection for all who seek solace."
   },
   {
     "id": 89,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744371090/IMG_20250316_172055_kuhtdh.jpg",
-    "title": "Auto",
+    "title": "The City's Chariot",
     "description": "Paras",
-    "tags": ["vehicle", "auto rickshaw", "street"],
+    "tags": ["urban", "journey", "movement", "life"],
     "created_at": "2025-04-08T22:38:10Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_20250316_172055_kuhtdh.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG_20250316_172055_kuhtdh.jpg",
+    "story": "An auto-rickshaw waits patiently, a common sight on the city streets. It is a chariot of the people, carrying a million stories every day, each journey a small part of the city's living narrative."
   },
   {
     "id": 90,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744371082/shotxparas_14040120_165151024_tpqj1b.jpg",
-    "title": "Emerging From Fog",
+    "title": "A Ghostly Form",
     "description": "Paras",
-    "tags": ["person", "fog", "abstract"],
+    "tags": ["abstract", "mystery", "ephemeral", "presence"],
     "created_at": "2025-04-08T22:38:02Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/shotxparas_14040120_165151024_tpqj1b.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/shotxparas_14040120_165151024_tpqj1b.jpg",
+    "story": "A person emerges from a thick fog, their form a ghostly blur. It is a surreal and haunting image, a person appearing from the unknown, reminding us of the mysteries of the human condition."
   },
   {
     "id": 91,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744371080/shotxparas_14040120_165112737_jtzu0p.jpg",
-    "title": "Light",
+    "title": "The Dancing Ray",
     "description": "Paras",
-    "tags": ["abstract", "light", "texture"],
+    "tags": ["abstract", "light", "energy", "motion"],
     "created_at": "2025-04-08T22:38:00Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/shotxparas_14040120_165112737_jtzu0p.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/shotxparas_14040120_165112737_jtzu0p.jpg",
+    "story": "A ray of light cuts through the darkness, creating a beautiful and abstract pattern. It is a moment of light and shadow, a simple but powerful dance that captures a fleeting moment of pure energy."
   },
   {
     "id": 92,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744371079/shotxparas_14040120_165057456_cs5bmb.jpg",
-    "title": "Bohot Saare Foool",
+    "title": "A Riot of Color",
     "description": "Paras",
-    "tags": ["flower", "nature", "garden", "plants"],
+    "tags": ["nature", "abundance", "joy", "life"],
     "created_at": "2025-04-08T22:37:59Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/shotxparas_14040120_165057456_cs5bmb.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/shotxparas_14040120_165057456_cs5bmb.jpg",
+    "story": "A field of blooms explodes in a riot of color. They grow together in a beautiful chaos, a collective celebration of life and abundance that fills the world with joy."
   },
   {
     "id": 93,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744371077/shotxparas_14040120_165040927_b1byqo.jpg",
-    "title": "Craft",
+    "title": "The Hand of the Artist",
     "description": "Paras",
-    "tags": ["craft", "object", "art"],
+    "tags": ["craft", "creativity", "expression", "labor"],
     "created_at": "2025-04-08T22:37:57Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/shotxparas_14040120_165040927_b1byqo.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/shotxparas_14040120_165040927_b1byqo.jpg",
+    "story": "A crafted object sits, a testament to the skill and care of its creator. It is a physical manifestation of an idea, a piece of the artist's soul made real through patience and labor."
   },
   {
     "id": 94,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370769/PSX_20241015_000949_gbb3zn.jpg",
-    "title": "Kota Mela",
+    "title": "A Whirlwind of Fun",
     "description": "Garvit Bhojak",
-    "tags": ["event", "mela", "festival", "fair"],
+    "tags": ["celebration", "community", "joy", "excitement"],
     "created_at": "2025-04-08T22:32:49Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/PSX_20241015_000949_gbb3zn.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/PSX_20241015_000949_gbb3zn.jpg",
+    "story": "The fair is a whirlwind of lights, sounds, and people. It is a place of shared joy and collective excitement, a vibrant celebration where the energy of the crowd is a powerful force."
   },
   {
     "id": 95,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370769/PSX_20241125_220330_v5yuf9.jpg",
-    "title": "Kartab",
+    "title": "The Acrobat's Grace",
     "description": "Garvit Bhojak",
-    "tags": ["event", "performance", "circus"],
+    "tags": ["performance", "artistry", "skill", "precision"],
     "created_at": "2025-04-08T22:32:49Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/PSX_20241125_220330_v5yuf9.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/PSX_20241125_220330_v5yuf9.jpg",
+    "story": "A performer moves with incredible grace and skill, their body a testament to dedication and precision. It is a moment of pure artistry and athleticism, where human potential seems limitless."
   },
   {
     "id": 96,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370768/PSX_20240621_203803-1_pn2hsc.jpg",
-    "title": "Hanging Bridge 2",
+    "title": "A Bridge to the Sky",
     "description": "Garvit Bhojak",
-    "tags": ["architecture", "bridge", "hanging bridge", "city"],
+    "tags": ["connection", "engineering", "progress", "urban"],
     "created_at": "2025-04-08T22:32:48Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/PSX_20240621_203803-1_pn2hsc.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/PSX_20240621_203803-1_pn2hsc.jpg",
+    "story": "The bridge, suspended high above, seems to reach for the heavens. It is a powerful piece of engineering, a man-made wonder that connects distant shores and symbolizes human ambition."
   },
   {
     "id": 97,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370765/IMG-20230614-WA0018__01__01_ncyids.jpg",
-    "title": "Doosra Hanging Bridge",
+    "title": "The Link to the Horizon",
     "description": "Garvit Bhojak",
-    "tags": ["architecture", "bridge", "hanging bridge", "river"],
+    "tags": ["connection", "journey", "landscape", "distance"],
     "created_at": "2025-04-08T22:32:45Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG-20230614-WA0018__01__01_ncyids.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/IMG-20230614-WA0018__01__01_ncyids.jpg",
+    "story": "A bridge stretches across the water, a thin line connecting two distant points. It is a link to the horizon, a path to the unknown, inviting the viewer to consider the journey ahead."
   },
   {
     "id": 98,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370764/PSX_20241103_183743_plhvzm.jpg",
-    "title": "Kidhar Ho Sallu Bhai",
+    "title": "The Lone Watcher",
     "description": "Garvit Bhojak",
-    "tags": ["animal", "deer", "blackbuck", "wildlife"],
+    "tags": ["nature", "stillness", "observation", "solitude"],
     "created_at": "2025-04-08T22:32:44Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/PSX_20241103_183743_plhvzm.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/PSX_20241103_183743_plhvzm.jpg",
+    "story": "A creature stands alone in a field, its form a picture of quiet grace. It is a lone watcher in the stillness, a reminder of the peaceful solitude that exists in the natural world."
   },
   {
     "id": 99,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370763/PSX_20241103_183604_gipsvp.jpg",
-    "title": "BlackBucks",
+    "title": "A Herd in the Grass",
     "description": "Garvit Bhojak",
-    "tags": ["animal", "deer", "blackbuck", "wildlife", "group"],
+    "tags": ["nature", "community", "harmony", "coexistence"],
     "created_at": "2025-04-08T22:32:43Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/PSX_20241103_183604_gipsvp.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/PSX_20241103_183604_gipsvp.jpg",
+    "story": "A group of animals stands in the tall grass, their forms a picture of peaceful harmony. They are a community in their natural world, a reminder of the quiet coexistence that is possible."
   },
   {
     "id": 100,
     "url": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_1000/q_auto:best/f_auto/v1744370763/PSX_20241103_190358_yhvghh.jpg",
-    "title": "Mandir",
+    "title": "The Sacred Temple",
     "description": "Garvit Bhojak",
-    "tags": ["architecture", "temple", "religious", "mandir"],
+    "tags": ["spirituality", "faith", "heritage", "community"],
     "created_at": "2025-04-08T22:32:43Z",
     "updated_at": "2025-08-18T23:05:20Z",
-    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/PSX_20241103_190358_yhvghh.jpg"
+    "thumb": "https://res.cloudinary.com/dxp3cekqz/image/upload/w_500/q_auto:best/f_auto/PSX_20241103_190358_yhvghh.jpg",
+    "story": "A sacred structure stands, its forms a mix of old and new. It is a beacon of faith, a place of peace and reflection for all who seek spiritual solace and community."
   }
 ]
