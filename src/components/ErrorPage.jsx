@@ -1,5 +1,4 @@
-import React from 'react';
-import { Camera, Home, RefreshCw } from 'lucide-react';
+import React from "react";
 
 const ErrorPage = ({ error, resetError }) => {
   return (
@@ -8,7 +7,7 @@ const ErrorPage = ({ error, resetError }) => {
         {/* Icon */}
         <div className="relative">
           <div className="w-24 h-24 mx-auto border-2 border-white/20 rounded-full flex items-center justify-center">
-            <Camera size={40} className="text-gray-400" />
+            <i className="ri-camera-line text-gray-400 text-4xl" />
           </div>
           <div className="absolute -top-2 -right-2 w-6 h-6 bg-red-500 rounded-full flex items-center justify-center">
             <span className="text-xs">!</span>
@@ -17,11 +16,10 @@ const ErrorPage = ({ error, resetError }) => {
 
         {/* Error Message */}
         <div className="space-y-4">
-          <h1 className="text-4xl md:text-5xl font-light">
-            Frame Not Found
-          </h1>
+          <h1 className="text-4xl md:text-5xl font-light">Frame Not Found</h1>
           <p className="text-gray-400 text-lg leading-relaxed max-w-lg mx-auto">
-            Looks like this shot didn't develop properly. Let's get you back to capturing moments.
+            Looks like this shot didn't develop properly. Let's get you back to
+            capturing moments.
           </p>
         </div>
 
@@ -37,29 +35,22 @@ const ErrorPage = ({ error, resetError }) => {
         {/* Actions */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <button
-            onClick={() => window.location.href = '/'}
+            onClick={() => (window.location.href = "/")}
             className="flex items-center gap-2 bg-white text-black px-6 py-3 rounded-xl font-medium hover:bg-gray-100 transition-colors"
           >
-            <Home size={18} />
+            <i className="ri-home-line" />
             Back to Home
           </button>
-          
+
           {resetError && (
             <button
               onClick={resetError}
               className="flex items-center gap-2 border border-white/20 px-6 py-3 rounded-xl hover:bg-white/5 transition-colors"
             >
-              <RefreshCw size={18} />
+              <i className="ri-refresh-line" />
               Try Again
             </button>
           )}
-        </div>
-
-        {/* Footer */}
-        <div className="pt-8 border-t border-white/10">
-          <p className="text-gray-500 text-sm">
-            Photography Club • Capturing moments, creating memories
-          </p>
         </div>
       </div>
     </div>
@@ -78,13 +69,13 @@ class ErrorBoundary extends React.Component {
   }
 
   componentDidCatch(error, errorInfo) {
-    console.error('Photography Club Error:', error, errorInfo);
+    console.error("Photography Club Error:", error, errorInfo);
   }
 
   render() {
     if (this.state.hasError) {
       return (
-        <ErrorPage 
+        <ErrorPage
           error={this.state.error}
           resetError={() => this.setState({ hasError: false, error: null })}
         />
