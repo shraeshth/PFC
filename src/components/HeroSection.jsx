@@ -33,32 +33,6 @@ const HeroSection = () => {
           About Us
         </motion.h1>
 
-        <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.6, delay: 0.6 }}
-          className="flex w-full max-w-7xl mt-8 py-5 text-white backdrop-blur-[5px] bg-white/20 border border-white/10 rounded-3xl"
-        >
-          {/* Item 1 */}
-          <div className="flex-1 flex items-center justify-center flex-col px-6 border-r border-white/20">
-            <div className="text-3xl font-thin text-[#e95eb4]">50+</div>
-            <div className="text-sm uppercase font-figtree tracking-widest">
-              Active Members
-            </div>
-          </div>
-
-          {/* Item 2 */}
-          <div className="flex-1 flex items-center justify-center flex-col px-6 border-r border-white/20">
-            <div className="text-3xl font-thin text-[#e95eb4]">20+</div>
-            <div className="text-sm uppercase font-figtree tracking-widest">Events</div>
-          </div>
-
-          {/* Item 3 */}
-          <div className="flex-1 flex items-center justify-center flex-col px-6">
-            <div className="text-3xl font-thin text-[#e95eb4]">3</div>
-            <div className="text-sm uppercase font-figtree tracking-widest">Years</div>
-          </div>
-        </motion.div>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

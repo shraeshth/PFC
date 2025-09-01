@@ -31,7 +31,7 @@ const ContactSection = () => {
                 className="border border-white/20 rounded-xl overflow-hidden"
               >
                 {/* Top bar with name and role */}
-                <div className="bg-gradient-to-r from-gray-900 to-black p-4 border-b border-white/10">
+                <div className=" p-4 border-b border-white/10">
                   <div className="flex items-center justify-between">
                     <div>
                       <h4 className="font-light text-lg">{contact.name}</h4>
@@ -64,7 +64,7 @@ const ContactSection = () => {
           </div>
 
           {/* Map */}
-          <div className="border border-white/20 rounded-xl overflow-hidden h-[300px] flex flex-col">
+          <div className="border border-white/20 rounded-xl overflow-hidden h-[280px] flex flex-col">
             <div className=" p-4 border-b border-white/20">
               <div className="flex items-center gap-3">
                 <div className="w-6 h-6 rounded-full flex items-center justify-center">

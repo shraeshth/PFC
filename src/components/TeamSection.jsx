@@ -1,6 +1,7 @@
 import React from "react";
 import SpotlightCard from "./SpotlightCard";
 import TextTiltCard from "./TextTiltCard"; // Ensure the path is correct
+import members from "../JSON/Team.json"; // Import JSON data
 
 const TeamSection = () => {
   const facultyCoordinator = {
@@ -15,7 +16,7 @@ const TeamSection = () => {
   const leadership = [
     {
       name: "Shreshth Sharma",
-      role: "Secreatary",
+      role: "Secretary",
       department: "IT",
       image:
         "https://res.cloudinary.com/dbk50pszr/image/upload/v1756680639/ShresthProfile_wojm2u.png",
@@ -24,45 +25,12 @@ const TeamSection = () => {
     },
     {
       name: "Harsh Panchal",
-      role: "Co-Secreatary",
+      role: "Co-Secretary",
       department: "IT",
       image:
         "https://res.cloudinary.com/dbk50pszr/image/upload/v1756680443/6_oqo9os.png",
       detail:
         "Harsh builds collaboration within the team, creating an environment where new ideas thrive and creativity flourishes.",
-    },
-  ];
-
-  const teamStructure = [
-    {
-      name: "Rahul Verma",
-      position: "President",
-      detail: "Strategic vision & leadership",
-    },
-    {
-      name: "Anjali Mehta",
-      position: "Vice President",
-      detail: "Operations & team coordination",
-    },
-    {
-      name: "Sneha Kapoor",
-      position: "Secretary",
-      detail: "Documentation & communication",
-    },
-    {
-      name: "Amit Singh",
-      position: "Treasurer",
-      detail: "Financial management & planning",
-    },
-    {
-      name: "Priya Sharma",
-      position: "Content Writer",
-      detail: "Creative content & storytelling",
-    },
-    {
-      name: "Rohan Patel",
-      position: "Marketing",
-      detail: "Brand promotion & outreach",
     },
   ];
 
@@ -72,7 +40,9 @@ const TeamSection = () => {
         {/* Header */}
         <div className="text-center">
           <h2 className="text-4xl md:text-5xl font-light mb-2">Leadership</h2>
-          <p className="text-[#e95eb4] font-figtree text-lg">Meet our creative team</p>
+          <p className="text-[#e95eb4] font-figtree text-lg">
+            Meet our creative team
+          </p>
         </div>
 
         {/* Leadership Row - Faculty + Students */}
@@ -128,23 +98,59 @@ const TeamSection = () => {
 
         {/* Team Structure */}
         <div>
-          <h3 className="text-2xl font-light mb-8 text-center">
+          <h3 className="text-2xl font-light mb-6 text-center">
             Team <span className="text-[#e95eb4]">Structure</span>
           </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            {teamStructure.map((member, index) => (
-              <TextTiltCard key={index}>
-                <SpotlightCard className="rounded-2xl border border-white/10 p-6 h-[160px] flex flex-col justify-center cursor-pointer transition-all duration-300">
-                  <h4 className="text-lg font-light mb-1">{member.name}</h4>
-                  <p className="text-gray-400 text-xs uppercase tracking-wider mb-2 border-b border-white/10 pb-1">
-                    {member.position}
-                  </p>
-                  <p className="text-gray-300 text-lg leading-relaxed">
-                    {member.detail}
-                  </p>
-                </SpotlightCard>
-              </TextTiltCard>
-            ))}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4">
+            {members
+              .filter(
+                (member) =>
+                  member.position !== "Photographer" &&
+                  member.position !== "Video Editor" &&
+                  member.position !== "Secretary"
+              )
+              .map((member, index) => (
+                <TextTiltCard key={index}>
+                  <SpotlightCard className="rounded-xl border border-white/10 p-4 flex items-center gap-4 cursor-pointer transition-all duration-300">
+                    {/* Left (Image) */}
+                    <div className="w-1/3 flex-shrink-0">
+                      <img
+                        src={member.image}
+                        alt={member.name}
+                        className="w-full h-full aspect-square object-cover rounded-lg"
+                      />
+                    </div>
+
+                    {/* Right (Text Content) */}
+                    <div className="w-2/3 flex flex-col">
+                      {/* Name */}
+                      <h4 className="text-base font-light">{member.name}</h4>
+
+                      {/* Position */}
+                      <p className="text-gray-400 text-[20px] uppercase tracking-wide mb-1 border-b border-white/10 pb-1">
+                        {member.position}
+                      </p>
+
+                      {/* Description */}
+                      <p className="text-gray-300 font-figtree text-sm leading-snug mb-2 line-clamp-3">
+                        {member.description}
+                      </p>
+
+                      {/* Instagram Link */}
+                      {member.instagram && (
+                        <a
+                          href={member.instagram}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-[#e95eb4] text-xs hover:underline mt-auto"
+                        >
+                          Instagram
+                        </a>
+                      )}
+                    </div>
+                  </SpotlightCard>
+                </TextTiltCard>
+              ))}
           </div>
         </div>
       </div>
