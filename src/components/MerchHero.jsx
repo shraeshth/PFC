@@ -42,17 +42,21 @@ const MerchHero = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-black/40 to-black" />
 
       {/* Hero Text */}
-      <div className="text-center z-20 px-4 mt-15 flex flex-col items-center justify-center">
-        <h1 className="text-7xl md:text-8xl font-bold tracking-tighter leading-none">
-          WEAR
-        </h1>
-        <h1 className="text-7xl md:text-8xl font-bold tracking-tighter leading-none text-[#ea5eb4]">
-          VISION
-        </h1>
+      <div className="relative z-20 w-full flex flex-col items-center mt-10 px-4">
+        {/* Main Title */}
+        <div className="flex flex-wrap items-center justify-center gap-2 md:gap-6">
+          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tighter leading-none">
+            WEAR
+          </h1>
+          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tighter leading-none text-[#ea5eb4]">
+            VISION
+          </h1>
+        </div>
 
-        <button className="bg-black/10 backdrop-blur-md mt-7 text-white rounded-4xl border-[0.1px] border-white/20 px-7 py-4 font-figtree text-sm hover:bg-[#ea5eb4] hover:text-white transition-colors duration-300">
-          Coming Soon
-        </button>
+        {/* Subtitle */}
+        <p className="absolute top-1/2 -translate-y-1/2 text-3xl sm:text-4xl md:text-5xl font-homemade whitespace-nowrap">
+          the
+        </p>
       </div>
     </div>
   );

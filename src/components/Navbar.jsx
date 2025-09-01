@@ -62,7 +62,7 @@ export default function Navbar() {
 
         {/* Mobile Toggle */}
         <button
-          className="md:hidden p-2"
+          className="md:hidden p-2 text-[#e95eb4]"
           onClick={() => setIsMobileOpen(!isMobileOpen)}
           aria-label="Toggle menu"
         >
@@ -82,7 +82,7 @@ export default function Navbar() {
                   index !== links.length - 1 ? "border-b border-white/20" : ""
                 } ${
                   isActive
-                    ? "text-white font-bold bg-white/10"
+                    ? "text-[#e95eb4] font-bold bg-white/10"
                     : "text-white/80 hover:text-white hover:bg-white/5"
                 }`
               }

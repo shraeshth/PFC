@@ -1,40 +1,44 @@
 import React, { useState, useEffect } from "react";
-import { Users, Shield, Calendar, ChevronRight, Menu, X } from "lucide-react";
 import AboutDescription from "../components/AboutDescription.jsx";
 import TeamSection from "../components/TeamSection.jsx";
 import MembershipSection from "../components/MembershipSection.jsx";
 import FutureOutlook from "../components/FutureOutlook.jsx";
 import ContactSection from "../components/ContactSection.jsx";
 import HeroSection from "../components/HeroSection.jsx";
-
 import useScrollAnimation from "../components/useScrollAnimation.js";
 
+// Using Remix Icon classes instead of lucide-react
 const sections = [
   {
     id: "about",
     label: "About",
-    icon: Users,
+    icon: "ri-user-3-fill",
     subcategories: ["Overview", "Mission"],
   },
   {
     id: "team",
     label: "Team",
-    icon: Shield,
+    icon: "ri-shield-user-fill",
     subcategories: ["Leadership", "Members"],
   },
   {
     id: "membership",
     label: "Membership",
-    icon: Users,
+    icon: "ri-group-fill",
     subcategories: ["Rules", "Process"],
   },
   {
     id: "future",
     label: "Future",
-    icon: Calendar,
+    icon: "ri-calendar-fill",
     subcategories: ["Innovation", "Plans"],
   },
-  { id: "contact", label: "Contact", icon: Users, subcategories: [] },
+  {
+    id: "contact",
+    label: "Contact",
+    icon: "ri-contacts-book-2-fill",
+    subcategories: [],
+  },
 ];
 
 const AboutPage = () => {
@@ -53,7 +57,7 @@ const AboutPage = () => {
     const el = document.getElementById(id);
     if (el) el.scrollIntoView({ behavior: "smooth" });
     setActiveSection(id);
-    setMobileMenuOpen(false); // Close mobile menu after navigation
+    setMobileMenuOpen(false);
   };
 
   // Track which section is in view
@@ -108,10 +112,12 @@ const AboutPage = () => {
     <div className="relative flex min-h-screen">
       {/* Mobile Menu Button */}
       <button
-        className="mobile-menu-button fixed top-4 left-4 z-[60] lg:hidden bg-black/20 backdrop-blur-md border border-white/20 text-white p-3 rounded-full hover:bg-white/10 transition-all duration-300"
+        className="mobile-menu-button fixed top-4 left-4 z-[60] lg:hidden bg-black/20 backdrop-blur-md border border-white/20 text-white p-3 rounded-full hover:bg-[#e95eb4]/30 transition-all duration-300"
         onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
       >
-        {mobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
+        <i
+          className={`ri-${mobileMenuOpen ? "close-fill" : "menu-fill"} text-xl`}
+        />
       </button>
 
       {/* Mobile Overlay */}
@@ -129,22 +135,21 @@ const AboutPage = () => {
       >
         <div className="px-2 py-3 flex flex-col space-y-2">
           {sections.map((section) => {
-            const Icon = section.icon;
             const isExpanded = expandedSections[section.id];
             const isActive = activeSection === section.id;
             return (
               <div key={section.id} className="flex flex-col">
                 <button
                   className={`flex items-center justify-between p-2 rounded-xl cursor-pointer transition-all duration-300 ${
-                    sidebarExpanded ? "hover:bg-white/10" : ""
-                  } ${isActive ? "bg-black/20 text-white/90" : ""}`}
+                    sidebarExpanded ? "hover:bg-[#e95eb4]/20" : ""
+                  } ${isActive ? "bg-[#e95eb4]/30 text-[#e95eb4]" : ""}`}
                   onClick={() => {
                     scrollToSection(section.id);
                     toggleSection(section.id);
                   }}
                 >
                   <div className="flex items-center justify-center space-x-3">
-                    <Icon size={18} className="flex-shrink-0" />
+                    <i className={`${section.icon} text-lg`} />
                     <span
                       className={`font-light transition-all duration-300 whitespace-nowrap ${
                         sidebarExpanded ? "opacity-100" : "opacity-0"
@@ -154,9 +159,8 @@ const AboutPage = () => {
                     </span>
                   </div>
                   {section.subcategories.length > 0 && sidebarExpanded && (
-                    <ChevronRight
-                      size={16}
-                      className={`transition-transform duration-300 flex-shrink-0 ${
+                    <i
+                      className={`ri-arrow-right-s-fill text-sm transition-transform duration-300 ${
                         isExpanded ? "rotate-90" : "rotate-0"
                       }`}
                     />
@@ -168,7 +172,7 @@ const AboutPage = () => {
                       <button
                         key={idx}
                         onClick={() => scrollToSection(section.id)}
-                        className="text-left px-3 py-1.5 text-sm rounded-lg hover:bg-black/10 transition-all duration-300 text-gray-400 hover:text-white/80"
+                        className="text-left px-3 py-1.5 text-sm rounded-lg hover:bg-[#e95eb4]/20 transition-all duration-300 text-gray-400 hover:text-[#e95eb4]"
                       >
                         {sub}
                       </button>
@@ -191,14 +195,15 @@ const AboutPage = () => {
           <h3 className="text-xl font-light mb-6 text-white/90">Navigation</h3>
           <div className="flex flex-col space-y-3">
             {sections.map((section) => {
-              const Icon = section.icon;
               const isExpanded = expandedSections[section.id];
               const isActive = activeSection === section.id;
               return (
                 <div key={section.id} className="flex flex-col">
                   <button
-                    className={`flex items-center justify-between p-4 rounded-xl cursor-pointer transition-all duration-300 hover:bg-white/10 ${
-                      isActive ? "bg-white/20 text-white" : "text-gray-300"
+                    className={`flex items-center justify-between p-4 rounded-xl cursor-pointer transition-all duration-300 hover:bg-[#e95eb4]/20 ${
+                      isActive
+                        ? "bg-[#e95eb4]/30 text-[#e95eb4]"
+                        : "text-gray-300"
                     }`}
                     onClick={() => {
                       scrollToSection(section.id);
@@ -208,15 +213,14 @@ const AboutPage = () => {
                     }}
                   >
                     <div className="flex items-center space-x-4">
-                      <Icon size={20} className="flex-shrink-0" />
+                      <i className={`${section.icon} text-xl`} />
                       <span className="font-light text-base">
                         {section.label}
                       </span>
                     </div>
                     {section.subcategories.length > 0 && (
-                      <ChevronRight
-                        size={18}
-                        className={`transition-transform duration-300 flex-shrink-0 ${
+                      <i
+                        className={`ri-arrow-right-s-fill text-sm transition-transform duration-300 ${
                           isExpanded ? "rotate-90" : "rotate-0"
                         }`}
                       />
@@ -228,7 +232,7 @@ const AboutPage = () => {
                         <button
                           key={idx}
                           onClick={() => scrollToSection(section.id)}
-                          className="text-left px-4 py-2 text-sm rounded-lg hover:bg-white/5 transition-all duration-300 text-gray-400 hover:text-white/80"
+                          className="text-left px-4 py-2 text-sm rounded-lg hover:bg-[#e95eb4]/20 transition-all duration-300 text-gray-400 hover:text-[#e95eb4]"
                         >
                           {sub}
                         </button>
@@ -244,12 +248,9 @@ const AboutPage = () => {
 
       {/* Main Content */}
       <div className="flex-1 w-full">
-        {/* Hero Section */}
         <div id="hero" className="w-full">
           <HeroSection />
         </div>
-
-        {/* Content Sections */}
         <div className="w-full">
           <div id="about" className="scroll-mt-20">
             <AboutDescription />
@@ -269,11 +270,10 @@ const AboutPage = () => {
         </div>
       </div>
 
-      {/* Bottom Navigation for Mobile (Alternative) */}
+      {/* Bottom Navigation for Mobile */}
       <div className="lg:hidden fixed bottom-0 left-0 right-0 bg-black/90 backdrop-blur-xl border-t border-white/20 z-40">
         <div className="flex justify-around items-center py-2 px-2">
           {sections.map((section) => {
-            const Icon = section.icon;
             const isActive = activeSection === section.id;
             return (
               <button
@@ -281,11 +281,11 @@ const AboutPage = () => {
                 onClick={() => scrollToSection(section.id)}
                 className={`flex flex-col items-center justify-center p-2 rounded-lg transition-all duration-300 min-w-0 flex-1 ${
                   isActive
-                    ? "text-white bg-white/10"
-                    : "text-gray-400 hover:text-white/80"
+                    ? "text-[#e95eb4] bg-[#e95eb4]/20"
+                    : "text-gray-400 hover:text-[#e95eb4]"
                 }`}
               >
-                <Icon size={18} className="mb-1 flex-shrink-0" />
+                <i className={`${section.icon} text-lg mb-1`} />
                 <span className="text-xs font-light truncate w-full text-center">
                   {section.label}
                 </span>
