@@ -105,7 +105,7 @@ const Footer = () => {
   return (
     <div className="w-full mx-auto text-center relative mt-12">
       {/* Carousel */}
-      <LettersCarousel className="mb-20" />
+      <LettersCarousel className="mb-20 mt-10" />
 
       {/* Background + Footer */}
       <div className="flex justify-center w-full mt-5 relative">
