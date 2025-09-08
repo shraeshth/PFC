@@ -107,7 +107,8 @@ const TeamSection = () => {
                 (member) =>
                   member.position !== "Photographer" &&
                   member.position !== "Video Editor" &&
-                  member.position !== "Secretary"
+                  member.position !== "Secretary" &&
+                  member.position !== "Co-Secretary"
               )
               .map((member, index) => (
                 <TextTiltCard key={index}>
